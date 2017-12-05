@@ -1,0 +1,10 @@
+digraph "apollo::monitor::HwCheckerInterface"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::monitor::HwChecker\lInterface\n||+ ~HwCheckerInterface()\l+ get_class()\l+ get_name()\l+ run_check()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::monitor::hw\l::EsdCanChecker\n|+ ESD_CAN_NAME\l|+ EsdCanChecker()\l+ ~EsdCanChecker()\l+ get_name()\l+ get_id()\l+ run_check()\l+ esdcan_result_to_hw\l_status()\l+ esdcan_result_to_message()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1monitor_1_1hw_1_1EsdCanChecker.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::monitor::hw\l::SocketCanChecker\n|+ SOCKET_CAN_NAME\l|+ SocketCanChecker()\l+ ~SocketCanChecker()\l+ get_name()\l+ get_id()\l+ run_check()\l+ socketcan_result_to\l_hw_status()\l+ socketcan_result_to\l_message()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1monitor_1_1hw_1_1SocketCanChecker.html"];
+}

@@ -1,0 +1,10 @@
+digraph "apollo::perception::BaseRadarDetector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::BaseRadarDetector\n||+ BaseRadarDetector()\l+ ~BaseRadarDetector()\l+ Init()\l+ Detect()\l+ name()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::DummyRadarDetector\n||+ DummyRadarDetector()\l+ ~DummyRadarDetector()\l+ Init()\l+ Detect()\l+ name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1DummyRadarDetector.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::perception\l::ModestRadarDetector\n||+ ModestRadarDetector()\l+ ~ModestRadarDetector()\l+ Init()\l+ Detect()\l+ CollectRadarResult()\l+ name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1ModestRadarDetector.html"];
+}

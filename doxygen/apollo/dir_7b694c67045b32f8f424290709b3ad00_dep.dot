@@ -1,0 +1,11 @@
+digraph "modules/monitor/hardware/gps" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ea1248eb37da9d95c0689f81cf4ff9d2 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="hardware" fontname="Helvetica", fontsize="10", URL="dir_ea1248eb37da9d95c0689f81cf4ff9d2.html"]
+  dir_7b694c67045b32f8f424290709b3ad00 [shape=box, label="gps", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7b694c67045b32f8f424290709b3ad00.html"];
+  }
+  dir_01b67c2fb91f4e1b99e3c3abd77c4234 [shape=box label="common" URL="dir_01b67c2fb91f4e1b99e3c3abd77c4234.html"];
+  dir_7b694c67045b32f8f424290709b3ad00->dir_01b67c2fb91f4e1b99e3c3abd77c4234 [headlabel="1", labeldistance=1.5 headhref="dir_000142_000137.html"];
+}

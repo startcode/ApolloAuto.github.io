@@ -1,0 +1,12 @@
+digraph "_factorMtx"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{_factorMtx\n|+ nelem\l+ perm\l+ nzl\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +css" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{_css\n|+ neqs\l+ nind\l+ owned\l+ xnzl\l+ nzlsub\l+ xnzlsub\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__css.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +frontsub" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{_frontsub\n|+ nind\l+ xnzf\l+ nzfsub\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__frontsub.html"];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +PTP" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{_elimtree\n|+ nvtx\l+ nfronts\l+ root\l+ ncolfactor\l+ ncolupdate\l+ parent\l+ firstchild\l+ silbings\l+ vtx2front\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__elimtree.html"];
+}

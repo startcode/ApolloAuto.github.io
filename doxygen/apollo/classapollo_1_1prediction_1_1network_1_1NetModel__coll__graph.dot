@@ -1,0 +1,6 @@
+digraph "apollo::prediction::network::NetModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::prediction\l::network::NetModel\n|# layers_\l# net_parameter_\l# ok_\l|+ NetModel()\l+ ~NetModel()\l+ Run()\l+ SetState()\l+ State()\l+ ResetState()\l+ LoadModel()\l+ PerformanceString()\l+ Name()\l+ Id()\l+ IsOk()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

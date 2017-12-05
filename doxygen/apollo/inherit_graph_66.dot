@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::control::Controller",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1Controller.html",tooltip="base class for all controllers. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::control::LatController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1LatController.html",tooltip="LQR-Based lateral controller, to compute steering target. For more details, please refer to &quot;Vehicle ..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::control::LonController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1LonController.html",tooltip="Longitudinal controller, to compute brake / throttle values. "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apollo::control::MPCController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1MPCController.html",tooltip="LQR-Based lateral controller, to compute steering target. For more details, please refer to &quot;Vehicle ..."];
+}

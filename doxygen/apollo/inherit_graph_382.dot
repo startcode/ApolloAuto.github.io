@@ -1,0 +1,21 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::prediction\l::network::Layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1Layer.html",tooltip="Layer is a base class for specific network layers It contains a pure virtual function Run which must ..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::prediction\l::network::Activation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1Activation.html",tooltip="Activation is an activation network layer. Activation layer output is y = f(x), where x is the input..."];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::prediction\l::network::BatchNormalization",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1BatchNormalization.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apollo::prediction\l::network::Concatenate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1Concatenate.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="apollo::prediction\l::network::Dense",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1Dense.html",tooltip="Dense is the forward fully connected network layer. Dense layer output is y = f(x*w + b)..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="apollo::prediction\l::network::Flatten",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1Flatten.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="apollo::prediction\l::network::Input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1Input.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="apollo::prediction\l::network::LSTM",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1LSTM.html",tooltip="For a step-by-step description of the algorithm, see this tutorial. "];
+}

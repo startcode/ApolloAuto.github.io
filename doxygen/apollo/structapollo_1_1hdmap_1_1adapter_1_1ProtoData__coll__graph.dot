@@ -1,0 +1,6 @@
+digraph "apollo::hdmap::adapter::ProtoData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::hdmap::adapter\l::ProtoData\n|+ header\l+ pb_lanes\l+ pb_roads\l+ pb_crosswalks\l+ pb_clear_areas\l+ pb_speed_bumps\l+ pb_junction\l+ pb_signals\l+ pb_stop_signs\l+ pb_yield_signs\l+ pb_overlaps\l+ pb_junctions\l+ pb_stop_lines\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

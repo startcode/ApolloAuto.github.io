@@ -1,0 +1,6 @@
+digraph "apollo::common::adapter::AdapterBase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::adapter\l::AdapterBase\n||+ ~AdapterBase()\l+ topic_name()\l+ Observe()\l+ Empty()\l+ HasReceived()\l+ GetDelaySec()\l+ ClearData()\l+ DumpLatestMessage()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

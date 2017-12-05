@@ -1,0 +1,16 @@
+digraph "modules/monitor/common/monitor_interface.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/monitor/common\l/monitor_interface.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/monitor/hardware\l/can/can_monitor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$can__monitor_8h.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/monitor/hardware\l/gps/gps_monitor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gps__monitor_8h.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/monitor/software\l/process_monitor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$process__monitor_8h.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/monitor/software\l/summary_monitor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$summary__monitor_8h.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/monitor/software\l/topic_monitor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$topic__monitor_8h.html"];
+}

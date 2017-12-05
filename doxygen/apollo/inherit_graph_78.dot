@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="CivetHandler",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::dreamview::\lImageHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1dreamview_1_1ImageHandler.html",tooltip="The ImageHandler, built on top of CivetHandler, converts the received ROS image message to a image st..."];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::drivers::velodyne::Input"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::velodyne\l::Input\n||+ Input()\l+ ~Input()\l+ get_firing_data_packet()\l+ get_positioning_data\l_packtet()\l+ init()\l+ init()\l# exract_nmea_time_from\l_packet()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

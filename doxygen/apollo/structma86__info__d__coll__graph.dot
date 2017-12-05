@@ -1,0 +1,6 @@
+digraph "ma86_info_d"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{ma86_info_d\n|+ detlog\l+ detsign\l+ flag\l+ matrix_rank\l+ maxdepth\l+ num_delay\l+ num_factor\l+ num_flops\l+ num_neg\l+ num_nodes\land 6 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

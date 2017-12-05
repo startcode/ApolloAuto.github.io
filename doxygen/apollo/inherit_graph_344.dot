@@ -1,0 +1,11 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::planning::Planner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Planner.html",tooltip="Planner is a base class for specific planners. It contains a pure virtual function Plan which must be..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::planning::EMPlanner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1EMPlanner.html",tooltip="EMPlanner is an expectation maximization planner. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::planning::RTKReplay\lPlanner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1RTKReplayPlanner.html",tooltip="RTKReplayPlanner is a derived class of Planner. It reads a recorded trajectory from a trajectory file..."];
+}

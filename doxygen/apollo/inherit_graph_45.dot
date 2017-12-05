@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::common::Status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1common_1_1Status.html",tooltip="A general class to denote the return status of an API call. It can either be an OK status for success..."];
+}

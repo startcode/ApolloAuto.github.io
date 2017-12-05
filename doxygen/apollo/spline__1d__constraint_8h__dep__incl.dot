@@ -1,0 +1,16 @@
+digraph "modules/planning/math/smoothing_spline/spline_1d_constraint.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/planning/math\l/smoothing_spline/spline\l_1d_constraint.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/planning/math\l/smoothing_spline/spline\l_1d_generator.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$spline__1d__generator_8h.html",tooltip=": piecewise_smoothing_spline (pss) generator class solve pss by qp algorithm, include adding constrai..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/planning/tasks\l/qp_spline_path/qp_spline\l_path_generator.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$qp__spline__path__generator_8h.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/planning/tasks\l/qp_spline_path/qp_spline\l_path_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$qp__spline__path__optimizer_8h.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/planning/tasks\l/qp_spline_st_speed/qp\l_spline_st_graph.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$qp__spline__st__graph_8h.html"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/planning/tasks\l/qp_spline_st_speed/qp\l_spline_st_speed_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$qp__spline__st__speed__optimizer_8h.html"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::canbus::VehicleController"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::canbus::VehicleController\n|# params_\l# can_sender_\l# message_manager_\l# is_initialized_\l# driving_mode_\l# is_reset_\l# mode_mutex_\l|+ ~VehicleController()\l+ Init()\l+ Start()\l+ Stop()\l+ chassis()\l+ Update()\l+ SetDrivingMode()\l# driving_mode()\l# set_driving_mode()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

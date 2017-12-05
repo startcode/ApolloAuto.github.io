@@ -1,0 +1,16 @@
+digraph "modules/drivers/gnss/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f27f65aa3defbe702613ab09ad042a1e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="gnss" fontname="Helvetica", fontsize="10", URL="dir_f27f65aa3defbe702613ab09ad042a1e.html"]
+  subgraph clusterdir_e82d5686ef5c2583c33755be40b0f03e {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_e82d5686ef5c2583c33755be40b0f03e.html"];
+    dir_e82d5686ef5c2583c33755be40b0f03e [shape=plaintext label="include"];
+    dir_31425d23b5d975787968b2d4c5569b82 [shape=box label="gnss" color="black" fillcolor="white" style="filled" URL="dir_31425d23b5d975787968b2d4c5569b82.html"];
+    dir_e0ee1be7e529b8ca709b53f648be080c [shape=box label="rtcm" color="black" fillcolor="white" style="filled" URL="dir_e0ee1be7e529b8ca709b53f648be080c.html"];
+    dir_f1a56558633594bf706ea670451c55c3 [shape=box label="util" color="black" fillcolor="white" style="filled" URL="dir_f1a56558633594bf706ea670451c55c3.html"];
+  }
+  }
+  dir_31425d23b5d975787968b2d4c5569b82->dir_f1a56558633594bf706ea670451c55c3 [headlabel="2", labeldistance=1.5 headhref="dir_000106_000034.html"];
+}

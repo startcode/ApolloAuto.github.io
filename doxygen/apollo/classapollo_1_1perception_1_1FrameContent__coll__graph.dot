@@ -1,0 +1,6 @@
+digraph "apollo::perception::FrameContent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::FrameContent\n||+ FrameContent()\l+ ~FrameContent()\l+ SetLidarPose()\l+ GetPoseV2w()\l+ SetLidarCloud()\l+ SetLidarRoiCloud()\l+ GetCloud()\l+ GetRoiCloud()\l+ HasCloud()\l+ SetTrackedObjectsLidar()\l+ SetTrackedObjectsRadar()\l+ SetTrackedObjectsFused()\l+ GetTrackedObjects()\l# OffsetPointcloud()\l# OffsetPointcloud()\l# OffsetObject()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::RadarSupplement"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::RadarSupplement\n|+ range\l+ angle\l+ relative_radial_velocity\l+ relative_tangential\l_velocity\l+ radial_velocity\l|+ RadarSupplement()\l+ ~RadarSupplement()\l+ RadarSupplement()\l+ operator=()\l+ clone()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

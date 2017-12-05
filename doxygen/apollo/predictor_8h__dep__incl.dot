@@ -1,0 +1,18 @@
+digraph "modules/prediction/predictor/predictor.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/prediction\l/predictor/predictor.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/prediction\l/predictor/free_move\l/free_move_predictor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$free__move__predictor_8h.html",tooltip="Define lane sequence predictor. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/prediction\l/predictor/sequence\l/sequence_predictor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sequence__predictor_8h.html",tooltip="Define the sequence predictor base class. "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/prediction\l/predictor/lane_sequence\l/lane_sequence_predictor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lane__sequence__predictor_8h.html",tooltip="Define lane sequence predictor. "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/prediction\l/predictor/move_sequence\l/move_sequence_predictor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$move__sequence__predictor_8h.html",tooltip="Define move sequence predictor. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/prediction\l/predictor/predictor\l_manager.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$predictor__manager_8h.html",tooltip="Use predictor manager to manage all predictors. "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="modules/prediction\l/predictor/regional\l/regional_predictor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$regional__predictor_8h.html",tooltip="Define pedestrian predictor. "];
+}

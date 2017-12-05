@@ -1,0 +1,13 @@
+digraph "modules/drivers/velodyne/velodyne_pointcloud/include" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d083e3f5f1bd3449b91bc48d35b0a7ba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="velodyne_pointcloud" fontname="Helvetica", fontsize="10", URL="dir_d083e3f5f1bd3449b91bc48d35b0a7ba.html"]
+  subgraph clusterdir_6f37af5caf7ed9425dd46952d79cb13d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6f37af5caf7ed9425dd46952d79cb13d.html"];
+    dir_6f37af5caf7ed9425dd46952d79cb13d [shape=plaintext label="include"];
+    dir_ccb453a835005d5e70afe0b7535ee4c5 [shape=box label="velodyne_pointcloud" color="black" fillcolor="white" style="filled" URL="dir_ccb453a835005d5e70afe0b7535ee4c5.html"];
+  }
+  }
+}

@@ -1,0 +1,25 @@
+digraph "modules/perception/onboard/types.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/perception\l/onboard/types.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/perception\l/onboard/event_manager.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$event__manager_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/perception\l/onboard/subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$subnode_8h.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/perception\l/obstacle/onboard/fusion\l_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$fusion__subnode_8h.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/perception\l/obstacle/onboard/lidar\l_process_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lidar__process__subnode_8h.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/perception\l/obstacle/onboard/radar\l_process_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$radar__process__subnode_8h.html"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="modules/perception\l/traffic_light/onboard\l/preprocessor_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$preprocessor__subnode_8h.html"];
+  Node3 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="modules/perception\l/traffic_light/onboard\l/proc_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proc__subnode_8h.html"];
+  Node2 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="modules/perception\l/onboard/dag_streaming.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dag__streaming_8h.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="modules/perception\l/perception.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$perception_8h.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

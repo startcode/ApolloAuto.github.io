@@ -1,0 +1,25 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::planning::Task",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Task.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::planning::PathDecider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1PathDecider.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::planning::PathOptimizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1PathOptimizer.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apollo::planning::DpPoly\lPathOptimizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1DpPolyPathOptimizer.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="apollo::planning::QpSpline\lPathOptimizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QpSplinePathOptimizer.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="apollo::planning::SpeedDecider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1SpeedDecider.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="apollo::planning::SpeedOptimizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1SpeedOptimizer.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="apollo::planning::DpStSpeed\lOptimizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1DpStSpeedOptimizer.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="apollo::planning::QpSpline\lStSpeedOptimizer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QpSplineStSpeedOptimizer.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="apollo::planning::Traffic\lDecider",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1TrafficDecider.html",tooltip="Create traffic related decision in this class. The created obstacles is added to obstacles_, and the decision is added to path_obstacles_ Traffic obstacle examples include: "];
+}

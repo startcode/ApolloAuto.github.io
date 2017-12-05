@@ -1,0 +1,6 @@
+digraph "apollo::planning::Curve1d"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Curve1d\n||+ Curve1d()\l+ ~Curve1d()\l+ Evaluate()\l+ ParamLength()\l+ ToString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::Object"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::Object\n|+ id\l+ cloud\l+ polygon\l+ direction\l+ theta\l+ center\l+ length\l+ width\l+ height\l+ shape_features\land 12 more...\l|+ Object()\l+ clone()\l+ ToString()\l+ Serialize()\l+ Deserialize()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

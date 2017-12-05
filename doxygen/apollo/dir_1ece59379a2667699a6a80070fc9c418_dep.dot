@@ -1,0 +1,9 @@
+digraph "modules/third_party_perception/common" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e23fc73bd4693e0a41ceb5102df56795 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="third_party_perception" fontname="Helvetica", fontsize="10", URL="dir_e23fc73bd4693e0a41ceb5102df56795.html"]
+  dir_1ece59379a2667699a6a80070fc9c418 [shape=box, label="common", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1ece59379a2667699a6a80070fc9c418.html"];
+  }
+}

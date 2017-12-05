@@ -1,0 +1,8 @@
+digraph "apollo::perception::ObjectTrack"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::ObjectTrack\n|+ idx_\l+ age_\l+ total_visible_count_\l+ consecutive_invisible\l_count_\l+ period_\l+ current_object_\l+ history_objects_\l+ is_static_hypothesis_\l+ belief_anchor_point_\l+ belief_velocity_\l+ belief_velocity_accelaration_\l+ s_filter_method_\l|+ ObjectTrack()\l+ ~ObjectTrack()\l+ Predict()\l+ UpdateWithObject()\l+ UpdateWithoutObject()\l+ UpdateWithoutObject()\l+ SetFilterMethod()\l+ SetTrackCachedHistorySize\lMaximum()\l+ SetAccelerationNoiseMaximum()\l+ SetSpeedNoiseMaximum()\l+ GetNextTrackId()\l# SmoothTrackVelocity()\l# SmoothTrackOrientation()\l# CheckTrackStaticHypothesis()\l# CheckTrackStaticHypothesis\lByVelocityAngleChange()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +filter_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::BaseFilter\n|# name_\l|+ BaseFilter()\l+ ~BaseFilter()\l+ Initialize()\l+ Predict()\l+ UpdateWithObject()\l+ UpdateWithoutObject()\l+ GetState()\l+ GetState()\l+ GetAccelerationGain()\l+ GetOnlineCovariance()\l+ Name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1BaseFilter.html"];
+}

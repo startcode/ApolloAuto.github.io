@@ -1,0 +1,6 @@
+digraph "apollo::perception::traffic_light::Image"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::traffic_light::Image\n||+ Image()\l+ Init()\l+ Init()\l+ ts()\l+ camera_id()\l+ camera_id_str()\l+ mat()\l+ size()\l+ contain_mat()\l+ contain_image()\l+ set_ts()\l+ set_device_id()\l+ GenerateMat()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

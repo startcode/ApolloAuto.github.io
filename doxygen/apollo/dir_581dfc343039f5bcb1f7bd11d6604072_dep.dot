@@ -1,0 +1,11 @@
+digraph "modules/drivers/usb_cam/nodes" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fcf7bdd43917afa27248464d5a5d7745 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="usb_cam" fontname="Helvetica", fontsize="10", URL="dir_fcf7bdd43917afa27248464d5a5d7745.html"]
+  dir_581dfc343039f5bcb1f7bd11d6604072 [shape=box, label="nodes", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_581dfc343039f5bcb1f7bd11d6604072.html"];
+  }
+  dir_7f440dff8777732b2b0d6d1a4b06ee8e [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_7f440dff8777732b2b0d6d1a4b06ee8e.html"];
+  dir_581dfc343039f5bcb1f7bd11d6604072->dir_7f440dff8777732b2b0d6d1a4b06ee8e [headlabel="1", labeldistance=1.5 headhref="dir_000121_000119.html"];
+}

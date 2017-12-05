@@ -1,0 +1,6 @@
+digraph "mc68_info"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{mc68_info\n|+ flag\l+ iostat\l+ stat\l+ out_range\l+ duplicate\l+ n_compressions\l+ n_zero_eigs\l+ l_workspace\l+ zb01_info\l+ n_dense_rows\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::prediction\l::network::NetModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1NetModel.html",tooltip="NetModel is a base class for specific network model It contains a pure virtual function Run which mus..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::prediction\l::network::RnnModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1network_1_1RnnModel.html",tooltip="RnnModel is a derived class from NetModel, it has a specific layers structure. "];
+}

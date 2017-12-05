@@ -1,0 +1,17 @@
+digraph "modules/perception/obstacle/radar/modest" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3395c353662ff5643b569ebaceb9d829 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="radar" fontname="Helvetica", fontsize="10", URL="dir_3395c353662ff5643b569ebaceb9d829.html"]
+  dir_64e1e21a3726adc469a813183b2d1cb8 [shape=box, label="modest", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_64e1e21a3726adc469a813183b2d1cb8.html"];
+  }
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_52b8ab4dee3e6973d678e6493128313c [shape=box label="interface" URL="dir_52b8ab4dee3e6973d678e6493128313c.html"];
+  dir_64e1e21a3726adc469a813183b2d1cb8->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="7", labeldistance=1.5 headhref="dir_000166_000037.html"];
+  dir_64e1e21a3726adc469a813183b2d1cb8->dir_9a5e51f49964887903df6eed98080585 [headlabel="2", labeldistance=1.5 headhref="dir_000166_000050.html"];
+  dir_64e1e21a3726adc469a813183b2d1cb8->dir_52b8ab4dee3e6973d678e6493128313c [headlabel="4", labeldistance=1.5 headhref="dir_000166_000165.html"];
+  dir_52b8ab4dee3e6973d678e6493128313c->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="2", labeldistance=1.5 headhref="dir_000165_000037.html"];
+  dir_52b8ab4dee3e6973d678e6493128313c->dir_9a5e51f49964887903df6eed98080585 [headlabel="1", labeldistance=1.5 headhref="dir_000165_000050.html"];
+}

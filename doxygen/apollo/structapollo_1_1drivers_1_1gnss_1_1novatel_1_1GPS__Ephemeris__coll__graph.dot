@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::GPS_Ephemeris"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::GPS_Ephemeris\n|+ prn\l+ tow\l+ health\l+ iode1\l+ iode2\l+ week\l+ z_week\l+ toe\l+ A\l+ delta_A\land 22 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::Thread"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::Thread\n|# tid_\l# started_\l# joinable_\l# thread_name_\l|+ Thread()\l+ Tid()\l+ SetJoinable()\l+ Start()\l+ Join()\l+ IsAlive()\l+ thread_name()\l+ set_thread_name()\l# Run()\l# ThreadRunner()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

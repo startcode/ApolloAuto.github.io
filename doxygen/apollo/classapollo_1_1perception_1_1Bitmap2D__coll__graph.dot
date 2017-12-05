@@ -1,0 +1,6 @@
+digraph "apollo::perception::Bitmap2D"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::Bitmap2D\n||+ Bitmap2D()\l+ get_min_p()\l+ get_max_p()\l+ get_grid_size()\l+ get_dir_major()\l+ get_op_dir_major()\l+ IsExist()\l+ Check()\l+ Set()\l+ Set()\l+ BuildMap()\l+ opposite_direction()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

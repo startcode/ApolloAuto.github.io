@@ -1,0 +1,15 @@
+digraph "modules/drivers/velodyne/velodyne_driver/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_777320f9082b5c26687a5b05fd0525de {
+    graph [ bgcolor="#ddddee", pencolor="black", label="velodyne_driver" fontname="Helvetica", fontsize="10", URL="dir_777320f9082b5c26687a5b05fd0525de.html"]
+  subgraph clusterdir_06b360b2507fada3975a52e928277b81 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_06b360b2507fada3975a52e928277b81.html"];
+    dir_06b360b2507fada3975a52e928277b81 [shape=plaintext label="src"];
+    dir_4e694e05a3559accfb5ba0ca232446c6 [shape=box label="driver" color="black" fillcolor="white" style="filled" URL="dir_4e694e05a3559accfb5ba0ca232446c6.html"];
+  }
+  }
+  dir_fe456f07c06141889a392df713201449 [shape=box label="include" fillcolor="white" style="filled" color="red" URL="dir_fe456f07c06141889a392df713201449.html"];
+  dir_4e694e05a3559accfb5ba0ca232446c6->dir_fe456f07c06141889a392df713201449 [headlabel="1", labeldistance=1.5 headhref="dir_000126_000123.html"];
+}

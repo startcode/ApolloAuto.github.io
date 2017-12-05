@@ -1,0 +1,6 @@
+digraph "topology_t"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{topology_t\n|+ nprocs\l+ mygridId\l+ dimX\l+ dimY\l+ myQId\l+ dimQ\l+ cube2grid\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

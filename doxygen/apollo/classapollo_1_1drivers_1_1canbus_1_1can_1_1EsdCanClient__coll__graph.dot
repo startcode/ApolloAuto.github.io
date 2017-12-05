@@ -1,0 +1,8 @@
+digraph "apollo::drivers::canbus::can::EsdCanClient"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::canbus\l::can::EsdCanClient\n||+ Init()\l+ ~EsdCanClient()\l+ Start()\l+ Stop()\l+ Send()\l+ Receive()\l+ GetErrorString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::drivers::canbus\l::CanClient\n|# is_started_\l|+ CanClient()\l+ ~CanClient()\l+ Init()\l+ Start()\l+ Stop()\l+ Send()\l+ SendSingleFrame()\l+ Receive()\l+ GetErrorString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1canbus_1_1CanClient.html",tooltip="The class which defines the CAN client to send and receive message. "];
+}

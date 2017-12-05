@@ -1,0 +1,6 @@
+digraph "apollo::perception::FileUtil"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::FileUtil\n||+ FileUtil()\l+ ~FileUtil()\l+ Exists()\l+ Exists()\l+ GetType()\l+ DeleteFile()\l+ CreateDir()\l+ GetFileContent()\l+ ReadLines()\l+ RemoveFileSuffix()\l+ GetFileList()\l+ GetFileList()\l+ GetAbsolutePath()\l+ GetFileName()\l+ NumLines()\l+ CompareFileByDigital()\l+ CompareFileByLexicographical()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

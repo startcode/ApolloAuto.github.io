@@ -1,0 +1,8 @@
+digraph "apollo::perception::ProbabilisticFusion"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::ProbabilisticFusion\n|# publish_sensor_id_\l# started_\l# matcher_\l# sensor_manager_\l# track_manager_\l# sensor_data_rw_mutex_\l# fusion_mutex_\l# use_radar_\l# use_lidar_\l|+ ProbabilisticFusion()\l+ ~ProbabilisticFusion()\l+ Init()\l+ Fuse()\l+ name()\l# FuseFrame()\l# CreateNewTracks()\l# UpdateAssignedTracks()\l# UpdateUnassignedTracks()\l# CollectFusedObjects()\l# DecomposeFrameObjects()\l# FuseForegroundObjects()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::BaseFusion\n||+ BaseFusion()\l+ ~BaseFusion()\l+ Init()\l+ Fuse()\l+ name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1BaseFusion.html"];
+}

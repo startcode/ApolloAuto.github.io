@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Timestamp::The",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTimestamp_1_1The.html",tooltip="converts the double to has a unit of seconds. "];
+}

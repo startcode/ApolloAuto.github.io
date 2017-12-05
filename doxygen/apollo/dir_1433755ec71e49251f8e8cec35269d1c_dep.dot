@@ -1,0 +1,11 @@
+digraph "data/Ipopt-3.12.8/Ipopt/src/Common" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c4a3d6b1c51131dff4e5467232098667 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_c4a3d6b1c51131dff4e5467232098667.html"]
+  dir_1433755ec71e49251f8e8cec35269d1c [shape=box, label="Common", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1433755ec71e49251f8e8cec35269d1c.html"];
+  }
+  dir_6cd35041a0f1eaa69ac75b36abea9f4b [shape=box label="BuildTools" fillcolor="white" style="filled" color="red" URL="dir_6cd35041a0f1eaa69ac75b36abea9f4b.html"];
+  dir_1433755ec71e49251f8e8cec35269d1c->dir_6cd35041a0f1eaa69ac75b36abea9f4b [headlabel="1", labeldistance=1.5 headhref="dir_000010_000002.html"];
+}

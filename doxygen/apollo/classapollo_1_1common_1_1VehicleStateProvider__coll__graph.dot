@@ -1,0 +1,6 @@
+digraph "apollo::common::VehicleStateProvider"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::VehicleState\lProvider\n||+ Update()\l+ Update()\l+ timestamp()\l+ pose()\l+ ~VehicleStateProvider()\l+ x()\l+ y()\l+ z()\l+ kappa()\l+ roll()\land 11 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

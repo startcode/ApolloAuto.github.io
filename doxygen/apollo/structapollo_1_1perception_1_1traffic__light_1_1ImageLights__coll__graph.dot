@@ -1,0 +1,8 @@
+digraph "apollo::perception::traffic_light::ImageLights"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::traffic_light::ImageLights\n|+ image\l+ lights\l+ lights_outside_image\l+ camera_id\l+ timestamp\l+ preprocess_receive\l_timestamp\l+ preprocess_send_timestamp\l+ is_pose_valid\l+ diff_image_pose_ts\l+ diff_image_sys_ts\l+ offset\l+ num_signals\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +pose" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::traffic_light::CarPose\n||+ CarPose()\l+ ~CarPose()\l+ set_pose()\l+ pose()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1traffic__light_1_1CarPose.html"];
+}

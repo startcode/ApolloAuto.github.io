@@ -1,0 +1,17 @@
+digraph "data/Ipopt-3.12.8/Ipopt/MSVisualStudio/v8-ifort" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_088fee7542623c04fbd77d6711bb4acf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="MSVisualStudio" fontname="Helvetica", fontsize="10", URL="dir_088fee7542623c04fbd77d6711bb4acf.html"]
+  subgraph clusterdir_74ce8c21151158fe4010917c4ad53898 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_74ce8c21151158fe4010917c4ad53898.html"];
+    dir_74ce8c21151158fe4010917c4ad53898 [shape=plaintext label="v8-ifort"];
+    dir_f2a7d64daa39a9bc36cb4c7e09bf4a95 [shape=box label="CoinMetis" color="black" fillcolor="white" style="filled" URL="dir_f2a7d64daa39a9bc36cb4c7e09bf4a95.html"];
+    dir_b478441cb1cdbff9640a76f82a6c4953 [shape=box label="IpOpt" color="black" fillcolor="white" style="filled" URL="dir_b478441cb1cdbff9640a76f82a6c4953.html"];
+    dir_0db6b33f853660c43a39fb42b5e7814a [shape=box label="IpOptFSS" color="black" fillcolor="white" style="filled" URL="dir_0db6b33f853660c43a39fb42b5e7814a.html"];
+  }
+  }
+  dir_c4a3d6b1c51131dff4e5467232098667 [shape=box label="src" fillcolor="white" style="filled" color="red" URL="dir_c4a3d6b1c51131dff4e5467232098667.html"];
+  dir_b478441cb1cdbff9640a76f82a6c4953->dir_c4a3d6b1c51131dff4e5467232098667 [headlabel="2", labeldistance=1.5 headhref="dir_000022_000007.html"];
+}

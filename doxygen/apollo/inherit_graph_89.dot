@@ -1,0 +1,13 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::drivers::canbus\l::CanClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1canbus_1_1CanClient.html",tooltip="The class which defines the CAN client to send and receive message. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::drivers::canbus\l::can::EsdCanClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1canbus_1_1can_1_1EsdCanClient.html",tooltip="The class which defines a ESD CAN client which inherits CanClient. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::drivers::canbus\l::can::FakeCanClient",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1canbus_1_1can_1_1FakeCanClient.html",tooltip="The class which defines a fake CAN client which inherits CanClient. This fake CAN client is used for ..."];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apollo::drivers::canbus\l::can::SocketCanClientRaw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1canbus_1_1can_1_1SocketCanClientRaw.html",tooltip="The class which defines a ESD CAN client which inherites CanClient. "];
+}

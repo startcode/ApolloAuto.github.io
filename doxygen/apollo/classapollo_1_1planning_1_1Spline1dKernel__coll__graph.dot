@@ -1,0 +1,6 @@
+digraph "apollo::planning::Spline1dKernel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Spline1d\lKernel\n||+ Spline1dKernel()\l+ Spline1dKernel()\l+ AddRegularization()\l+ AddKernel()\l+ AddKernel()\l+ mutable_kernel_matrix()\l+ mutable_offset()\l+ kernel_matrix()\l+ offset()\l+ AddDerivativeKernelMatrix()\land 7 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

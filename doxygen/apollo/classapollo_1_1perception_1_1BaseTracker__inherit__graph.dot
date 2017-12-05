@@ -1,0 +1,10 @@
+digraph "apollo::perception::BaseTracker"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::BaseTracker\n||+ BaseTracker()\l+ ~BaseTracker()\l+ Init()\l+ Track()\l+ name()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::DummyTracker\n||+ DummyTracker()\l+ ~DummyTracker()\l+ Init()\l+ Track()\l+ name()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1DummyTracker.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::perception\l::HmObjectTracker\n||+ HmObjectTracker()\l+ ~HmObjectTracker()\l+ Init()\l+ SetMatcherMethod()\l+ SetCollectConsecutiveInvisible\lMaximum()\l+ SetCollectAgeMinimum()\l+ SetHistogramBinSize()\l+ Track()\l+ GetObjectTracks()\l+ name()\l# Initialize()\l# TransformPoseGlobal2Local()\l# ConstructTrackedObjects()\l# ComputeShapeFeatures()\l# TransformTrackedObject()\l# TransformObject()\l# ComputeTracksPredict()\l# UpdateAssignedTracks()\l# UpdateUnassignedTracks()\l# CreateNewTracks()\l# DeleteLostTracks()\l# CollectTrackedResults()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1HmObjectTracker.html"];
+}

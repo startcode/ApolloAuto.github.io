@@ -1,0 +1,9 @@
+digraph "modules/perception/lib/pcl_util" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c1a26545ee9c743bf92254028874005 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lib" fontname="Helvetica", fontsize="10", URL="dir_4c1a26545ee9c743bf92254028874005.html"]
+  dir_48ce1bd4731cd915e81ad50b86db745a [shape=box, label="pcl_util", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_48ce1bd4731cd915e81ad50b86db745a.html"];
+  }
+}

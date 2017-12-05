@@ -1,0 +1,8 @@
+digraph "apollo::hdmap::RouteSegments"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::hdmap::RouteSegments\n||+ RouteSegments()\l+ NextAction()\l+ SetNextAction()\l+ PreviousAction()\l+ SetPreviousAction()\l+ CanExit()\l+ SetCanExit()\l+ GetProjection()\l+ GetProjection()\l+ CanDriveFrom()\land 13 more...\l+ WithinLaneSegment()\l+ WithinLaneSegment()\l+ Length()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{std::vector\< LaneSegment \>\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

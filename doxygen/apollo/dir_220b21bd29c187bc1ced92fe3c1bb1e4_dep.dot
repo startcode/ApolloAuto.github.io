@@ -1,0 +1,11 @@
+digraph "modules/drivers/canbus/can_client/socket" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c2d7962d4ce0d329d56f66f204c70aab {
+    graph [ bgcolor="#ddddee", pencolor="black", label="can_client" fontname="Helvetica", fontsize="10", URL="dir_c2d7962d4ce0d329d56f66f204c70aab.html"]
+  dir_220b21bd29c187bc1ced92fe3c1bb1e4 [shape=box, label="socket", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_220b21bd29c187bc1ced92fe3c1bb1e4.html"];
+  }
+  dir_89e2469f18c5e5da51766ec9b3e212fa [shape=box label="common" URL="dir_89e2469f18c5e5da51766ec9b3e212fa.html"];
+  dir_220b21bd29c187bc1ced92fe3c1bb1e4->dir_89e2469f18c5e5da51766ec9b3e212fa [headlabel="1", labeldistance=1.5 headhref="dir_000099_000101.html"];
+}

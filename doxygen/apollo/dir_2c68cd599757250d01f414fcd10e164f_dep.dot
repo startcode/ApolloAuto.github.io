@@ -1,0 +1,17 @@
+digraph "modules/perception/traffic_light/rectify" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_259d8cba57c282fe549a96238c660ace {
+    graph [ bgcolor="#ddddee", pencolor="black", label="traffic_light" fontname="Helvetica", fontsize="10", URL="dir_259d8cba57c282fe549a96238c660ace.html"]
+  dir_2c68cd599757250d01f414fcd10e164f [shape=box, label="rectify", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_2c68cd599757250d01f414fcd10e164f.html"];
+  }
+  dir_e6b59c7214001c824cfd48ec013b984d [shape=box label="interface" URL="dir_e6b59c7214001c824cfd48ec013b984d.html"];
+  dir_1e03cab5e9f880bc99d64dc90cf1745f [shape=box label="base" URL="dir_1e03cab5e9f880bc99d64dc90cf1745f.html"];
+  dir_4c1a26545ee9c743bf92254028874005 [shape=box label="lib" fillcolor="white" style="filled" color="red" URL="dir_4c1a26545ee9c743bf92254028874005.html"];
+  dir_e6b59c7214001c824cfd48ec013b984d->dir_1e03cab5e9f880bc99d64dc90cf1745f [headlabel="11", labeldistance=1.5 headhref="dir_000167_000090.html"];
+  dir_e6b59c7214001c824cfd48ec013b984d->dir_4c1a26545ee9c743bf92254028874005 [headlabel="5", labeldistance=1.5 headhref="dir_000167_000145.html"];
+  dir_2c68cd599757250d01f414fcd10e164f->dir_e6b59c7214001c824cfd48ec013b984d [headlabel="5", labeldistance=1.5 headhref="dir_000171_000167.html"];
+  dir_2c68cd599757250d01f414fcd10e164f->dir_1e03cab5e9f880bc99d64dc90cf1745f [headlabel="1", labeldistance=1.5 headhref="dir_000171_000090.html"];
+  dir_2c68cd599757250d01f414fcd10e164f->dir_4c1a26545ee9c743bf92254028874005 [headlabel="1", labeldistance=1.5 headhref="dir_000171_000145.html"];
+}

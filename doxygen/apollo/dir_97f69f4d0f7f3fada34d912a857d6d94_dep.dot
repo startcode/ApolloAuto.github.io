@@ -1,0 +1,9 @@
+digraph "data/Ipopt-3.12.8/Ipopt/src/Algorithm/LinearSolvers" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_d25dde5278486928d7f749dcad2d68bf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Algorithm" fontname="Helvetica", fontsize="10", URL="dir_d25dde5278486928d7f749dcad2d68bf.html"]
+  dir_97f69f4d0f7f3fada34d912a857d6d94 [shape=box, label="LinearSolvers", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_97f69f4d0f7f3fada34d912a857d6d94.html"];
+  }
+}

@@ -1,0 +1,9 @@
+digraph "modules/drivers/canbus/can_client/fake" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c2d7962d4ce0d329d56f66f204c70aab {
+    graph [ bgcolor="#ddddee", pencolor="black", label="can_client" fontname="Helvetica", fontsize="10", URL="dir_c2d7962d4ce0d329d56f66f204c70aab.html"]
+  dir_ee47f0919be25b5ada16604d5ff20d32 [shape=box, label="fake", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_ee47f0919be25b5ada16604d5ff20d32.html"];
+  }
+}

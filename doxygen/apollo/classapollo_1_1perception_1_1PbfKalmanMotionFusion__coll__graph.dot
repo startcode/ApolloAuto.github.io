@@ -1,0 +1,8 @@
+digraph "apollo::perception::PbfKalmanMotionFusion"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::PbfKalmanMotionFusion\n|# belief_anchor_point_\l# belief_velocity_\l# belief_acceleration_\l# priori_state_\l# posteriori_state_\l# p_matrix_\l# a_matrix_\l# c_matrix_\l# q_matrix_\l# r_matrix_\l# k_matrix_\l# history_lidar_radar\l_consistency_\l# history_velocity_\l# history_time_diff_\l# history_velocity_is\l_radar_\l|+ PbfKalmanMotionFusion()\l+ ~PbfKalmanMotionFusion()\l+ Initialize()\l+ Initialize()\l+ Predict()\l+ UpdateWithObject()\l+ UpdateWithoutObject()\l+ GetState()\l# GetRadarHistoryLength()\l# GetLidarHistoryLength()\l# GetLidarHistoryIndex()\l# GetRadarHistoryIndex()\l# GetHistoryTimediff()\l# UpdateAcceleration()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::PbfBaseMotionFusion\n|# name_\l# initialized_\l|+ PbfBaseMotionFusion()\l+ ~PbfBaseMotionFusion()\l+ Initialize()\l+ Initialize()\l+ Predict()\l+ UpdateWithObject()\l+ UpdateWithoutObject()\l+ GetState()\l+ name()\l+ Initialized()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1PbfBaseMotionFusion.html"];
+}

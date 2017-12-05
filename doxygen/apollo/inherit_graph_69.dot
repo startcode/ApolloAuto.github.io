@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::control::Digital\lFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1DigitalFilter.html",tooltip="The DigitalFilter class is used to pass signals with a frequency lower than a certain cutoff frequenc..."];
+}

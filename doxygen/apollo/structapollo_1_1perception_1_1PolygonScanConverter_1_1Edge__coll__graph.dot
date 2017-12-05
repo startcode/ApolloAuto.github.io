@@ -1,0 +1,6 @@
+digraph "apollo::perception::PolygonScanConverter::Edge"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::PolygonScanConverter::Edge\n|+ max_x\l+ max_y\l+ x\l+ y\l+ k\l|+ operator\<()\l+ MoveUp()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

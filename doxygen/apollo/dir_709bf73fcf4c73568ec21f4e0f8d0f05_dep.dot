@@ -1,0 +1,18 @@
+digraph "data/Ipopt-3.12.8/Ipopt" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f0d83093135db3e44f9c1fbf5f5fb322 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Ipopt-3.12.8" fontname="Helvetica", fontsize="10", URL="dir_f0d83093135db3e44f9c1fbf5f5fb322.html"]
+  subgraph clusterdir_709bf73fcf4c73568ec21f4e0f8d0f05 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_709bf73fcf4c73568ec21f4e0f8d0f05.html"];
+    dir_709bf73fcf4c73568ec21f4e0f8d0f05 [shape=plaintext label="Ipopt"];
+    dir_6bb621bfa1d4e1a6e21b60612cb28b29 [shape=box label="examples" color="red" fillcolor="white" style="filled" URL="dir_6bb621bfa1d4e1a6e21b60612cb28b29.html"];
+    dir_088fee7542623c04fbd77d6711bb4acf [shape=box label="MSVisualStudio" color="red" fillcolor="white" style="filled" URL="dir_088fee7542623c04fbd77d6711bb4acf.html"];
+    dir_c4a3d6b1c51131dff4e5467232098667 [shape=box label="src" color="red" fillcolor="white" style="filled" URL="dir_c4a3d6b1c51131dff4e5467232098667.html"];
+  }
+  }
+  dir_6cd35041a0f1eaa69ac75b36abea9f4b [shape=box label="BuildTools" fillcolor="white" style="filled" color="red" URL="dir_6cd35041a0f1eaa69ac75b36abea9f4b.html"];
+  dir_c4a3d6b1c51131dff4e5467232098667->dir_6cd35041a0f1eaa69ac75b36abea9f4b [headlabel="1", labeldistance=1.5 headhref="dir_000007_000002.html"];
+  dir_088fee7542623c04fbd77d6711bb4acf->dir_c4a3d6b1c51131dff4e5467232098667 [headlabel="2", labeldistance=1.5 headhref="dir_000020_000007.html"];
+}

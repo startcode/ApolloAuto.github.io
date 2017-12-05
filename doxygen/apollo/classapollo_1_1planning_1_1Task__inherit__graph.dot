@@ -1,0 +1,24 @@
+digraph "apollo::planning::Task"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Task\n|# is_init_\l# frame_\l# reference_line_info_\l|+ Task()\l+ ~Task()\l+ Name()\l+ Execute()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::planning::PathDecider\n||+ PathDecider()\l+ ~PathDecider()\l+ Execute()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1PathDecider.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::planning::PathOptimizer\n||+ PathOptimizer()\l+ ~PathOptimizer()\l+ Execute()\l# Process()\l# RecordDebugInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1PathOptimizer.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{apollo::planning::DpPoly\lPathOptimizer\n||+ DpPolyPathOptimizer()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1DpPolyPathOptimizer.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{apollo::planning::QpSpline\lPathOptimizer\n||+ QpSplinePathOptimizer()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QpSplinePathOptimizer.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{apollo::planning::SpeedDecider\n||+ SpeedDecider()\l+ ~SpeedDecider()\l+ Init()\l+ Execute()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1SpeedDecider.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{apollo::planning::SpeedOptimizer\n||+ SpeedOptimizer()\l+ ~SpeedOptimizer()\l+ Execute()\l# Process()\l# GenerateStopProfile()\l# RecordSTGraphDebug()\l# RecordDebugInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1SpeedOptimizer.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{apollo::planning::DpStSpeed\lOptimizer\n||+ DpStSpeedOptimizer()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1DpStSpeedOptimizer.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node9 [label="{apollo::planning::QpSpline\lStSpeedOptimizer\n||+ QpSplineStSpeedOptimizer()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QpSplineStSpeedOptimizer.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node10 [label="{apollo::planning::Traffic\lDecider\n||+ TrafficDecider()\l+ Init()\l+ ~TrafficDecider()\l+ Execute()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1TrafficDecider.html",tooltip="Create traffic related decision in this class. The created obstacles is added to obstacles_, and the decision is added to path_obstacles_ Traffic obstacle examples include: "];
+}

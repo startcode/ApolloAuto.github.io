@@ -1,0 +1,16 @@
+digraph "modules/prediction/container/obstacles" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_785e2b277299b71d04d4ff801adb13f8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="container" fontname="Helvetica", fontsize="10", URL="dir_785e2b277299b71d04d4ff801adb13f8.html"]
+  dir_78597198f6cfde2bdcecea8b9eea0222 [shape=box, label="obstacles", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_78597198f6cfde2bdcecea8b9eea0222.html"];
+  }
+  dir_52654693a7cf345845d67ef00849565d [shape=box label="pose" URL="dir_52654693a7cf345845d67ef00849565d.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_bc4fbd717b8d61d0dc75a15f0986d7f7 [shape=box label="map" fillcolor="white" style="filled" color="red" URL="dir_bc4fbd717b8d61d0dc75a15f0986d7f7.html"];
+  dir_78597198f6cfde2bdcecea8b9eea0222->dir_52654693a7cf345845d67ef00849565d [headlabel="1", labeldistance=1.5 headhref="dir_000178_000203.html"];
+  dir_78597198f6cfde2bdcecea8b9eea0222->dir_9a5e51f49964887903df6eed98080585 [headlabel="2", labeldistance=1.5 headhref="dir_000178_000050.html"];
+  dir_78597198f6cfde2bdcecea8b9eea0222->dir_bc4fbd717b8d61d0dc75a15f0986d7f7 [headlabel="1", labeldistance=1.5 headhref="dir_000178_000061.html"];
+  dir_bc4fbd717b8d61d0dc75a15f0986d7f7->dir_9a5e51f49964887903df6eed98080585 [headlabel="20", labeldistance=1.5 headhref="dir_000061_000050.html"];
+}

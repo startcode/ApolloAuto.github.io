@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::InsCov"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::InsCov\n|+ gps_week\l+ gps_seconds\l+ position_covariance\l+ attitude_covariance\l+ velocity_covariance\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

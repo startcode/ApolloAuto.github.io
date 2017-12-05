@@ -1,0 +1,8 @@
+digraph "apollo::drivers::conti_radar::ContiRadarMessageManager"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::conti\l_radar::ContiRadarMessageManager\n||+ ContiRadarMessageManager()\l+ ~ContiRadarMessageManager()\l+ set_radar_conf()\l+ GetMutableProtocolDataById()\l+ Parse()\l+ set_can_client()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::drivers::canbus\l::MessageManager\< ContiRadar \>\n|# send_protocol_data_\l# recv_protocol_data_\l# protocol_data_map_\l# check_ids_\l# received_ids_\l# sensor_data_mutex_\l# sensor_data_\l# is_received_on_time_\l# cvar_\l|+ MessageManager()\l+ ~MessageManager()\l+ Parse()\l+ ClearSensorData()\l+ GetMutableCVar()\l+ GetMutableProtocolDataById()\l+ GetSensorData()\l+ ResetSendMessages()\l# AddRecvProtocolData()\l# AddSendProtocolData()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1canbus_1_1MessageManager.html"];
+}

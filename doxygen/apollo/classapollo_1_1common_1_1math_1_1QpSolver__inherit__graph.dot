@@ -1,0 +1,8 @@
+digraph "apollo::common::math::QpSolver"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::math\l::QpSolver\n|# params_\l# kernel_matrix_\l# offset_\l# affine_inequality_matrix_\l# affine_inequality_boundary_\l# affine_equality_matrix_\l# affine_equality_boundary_\l|+ QpSolver()\l+ ~QpSolver()\l+ set_pos_semi_definite\l_hessian()\l+ set_pos_definite_hessian()\l+ EnableCholeskyRefactorisation()\l+ SetTerminationTolerance()\l+ Solve()\l+ params()\l+ kernel_matrix()\l+ offset()\l+ affine_equality_matrix()\l+ affine_equality_boundary()\l+ affine_inequality_matrix()\l+ affine_inequality_boundary()\l# sanity_check()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::common::math\l::ActiveSetQpSolver\n||+ ActiveSetQpSolver()\l+ ~ActiveSetQpSolver()\l+ Solve()\l+ set_qp_eps_num()\l+ set_qp_eps_den()\l+ set_qp_eps_iter_ref()\l+ set_debug_info()\l+ set_max_iteration()\l+ set_l_lower_bound()\l+ set_l_upper_bound()\land 13 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1common_1_1math_1_1ActiveSetQpSolver.html"];
+}

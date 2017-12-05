@@ -1,0 +1,13 @@
+digraph "modules/drivers/gnss/src/impl/parser" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8b203d173030c44ab01c807161f687b4 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="impl" fontname="Helvetica", fontsize="10", URL="dir_8b203d173030c44ab01c807161f687b4.html"]
+  subgraph clusterdir_7e38b33b9847a9d8cc82422fd432389d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7e38b33b9847a9d8cc82422fd432389d.html"];
+    dir_7e38b33b9847a9d8cc82422fd432389d [shape=plaintext label="parser"];
+    dir_a404413ce40cea7191c76d98e93b35c1 [shape=box label="novatel" color="black" fillcolor="white" style="filled" URL="dir_a404413ce40cea7191c76d98e93b35c1.html"];
+  }
+  }
+}

@@ -1,0 +1,11 @@
+digraph "modules/perception/obstacle/lidar/dummy" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cea3b47e46c6e7de2071488d5a5d379a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lidar" fontname="Helvetica", fontsize="10", URL="dir_cea3b47e46c6e7de2071488d5a5d379a.html"]
+  dir_05f93b7ac3250597cf1cf815f666423b [shape=box, label="dummy", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_05f93b7ac3250597cf1cf815f666423b.html"];
+  }
+  dir_0e511d950e936e02d380312a7eeeff9e [shape=box label="interface" URL="dir_0e511d950e936e02d380312a7eeeff9e.html"];
+  dir_05f93b7ac3250597cf1cf815f666423b->dir_0e511d950e936e02d380312a7eeeff9e [headlabel="6", labeldistance=1.5 headhref="dir_000153_000156.html"];
+}

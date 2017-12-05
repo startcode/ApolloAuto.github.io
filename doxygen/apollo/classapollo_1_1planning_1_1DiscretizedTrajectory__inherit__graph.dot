@@ -1,0 +1,10 @@
+digraph "apollo::planning::DiscretizedTrajectory"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Discretized\lTrajectory\n|# trajectory_points_\l|+ DiscretizedTrajectory()\l+ DiscretizedTrajectory()\l+ DiscretizedTrajectory()\l+ ~DiscretizedTrajectory()\l+ Evaluate()\l+ StartPoint()\l+ EvaluateUsingLinearApproximation()\l+ QueryNearestPoint()\l+ QueryNearestPoint()\l+ AppendTrajectoryPoint()\l+ PrependTrajectoryPoints()\l+ TrajectoryPointAt()\l+ NumOfPoints()\l+ trajectory_points()\l+ Clear()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::planning::Trajectory\n||+ Trajectory()\l+ ~Trajectory()\l+ Evaluate()\l+ StartPoint()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Trajectory.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::planning::Publishable\lTrajectory\n||+ PublishableTrajectory()\l+ PublishableTrajectory()\l+ PublishableTrajectory()\l+ header_time()\l+ PopulateTrajectoryProtobuf()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1PublishableTrajectory.html"];
+}

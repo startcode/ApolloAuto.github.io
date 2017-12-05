@@ -1,0 +1,41 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::common::ApolloApp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1common_1_1ApolloApp.html",tooltip="The base module class to define the interface of an Apollo app. An Apollo app runs infinitely until b..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::calibration\l::LidarExChecker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1calibration_1_1LidarExChecker.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::calibration\l::RepublishMsg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1calibration_1_1RepublishMsg.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apollo::canbus::Canbus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1canbus_1_1Canbus.html",tooltip="canbus module main class. It processes the control data to send protocol messages to can card..."];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="apollo::control::Control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1Control.html",tooltip="control module main class, it processes localization, chasiss, and pad data to compute throttle..."];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="apollo::dreamview::\lDreamview",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1dreamview_1_1Dreamview.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="apollo::drivers::conti\l_radar::ContiRadarCanbus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1conti__radar_1_1ContiRadarCanbus.html",tooltip="template of canbus-based sensor module main class (e.g., conti_radar). "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="apollo::drivers::SensorCanbus\l\< SensorType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1SensorCanbus.html",tooltip="template of canbus-based sensor module main class (e.g., mobileye). "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="apollo::localization\l::Localization",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1localization_1_1Localization.html",tooltip="Localization module main class. It processes GPS and IMU as input, to generate localization info..."];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="apollo::monitor::Monitor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1monitor_1_1Monitor.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="apollo::perception\l::Perception",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1Perception.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="apollo::perception\l::PerceptionInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1PerceptionInterface.html",tooltip="Interface of the perception module. "];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="apollo::planning::Planning\lInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1PlanningInterface.html",tooltip="Interface of the planning module. "];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="apollo::planning::Planning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Planning.html"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="apollo::prediction\l::PredictionInterface",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1PredictionInterface.html",tooltip="Interface of the prediction module. "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="apollo::prediction\l::Prediction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1Prediction.html"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="apollo::routing::Routing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1routing_1_1Routing.html"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="apollo::third_party\l_perception::ThirdPartyPerception",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1third__party__perception_1_1ThirdPartyPerception.html"];
+}

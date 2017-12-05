@@ -1,0 +1,6 @@
+digraph "apollo::common::math::AABox2d"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::math\l::AABox2d\n||+ AABox2d()\l+ AABox2d()\l+ AABox2d()\l+ AABox2d()\l+ center()\l+ center_x()\l+ center_y()\l+ length()\l+ width()\l+ half_length()\land 16 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

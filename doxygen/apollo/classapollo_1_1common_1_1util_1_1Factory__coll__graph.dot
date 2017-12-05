@@ -1,0 +1,6 @@
+digraph "apollo::common::util::Factory&lt; IdentifierType, AbstractProduct, ProductCreator, MapContainer &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::util\l::Factory\< IdentifierType,\l AbstractProduct, ProductCreator,\l MapContainer \>\n||+ Register()\l+ Unregister()\l+ CreateObjectOrNull()\l+ CreateObject()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

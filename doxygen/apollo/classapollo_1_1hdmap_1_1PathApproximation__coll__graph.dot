@@ -1,0 +1,6 @@
+digraph "apollo::hdmap::PathApproximation"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::hdmap::PathApproximation\n|# max_error_\l# max_sqr_error_\l# num_points_\l# original_ids_\l# segments_\l# max_error_per_segment_\l# projections_\l# max_projection_\l# num_projection_samples_\l# original_projections_\l# max_original_projections\l_to_left_\l# min_original_projections\l_to_right_\l# sampled_max_original\l_projections_to_left_\l|+ PathApproximation()\l+ PathApproximation()\l+ max_error()\l+ original_ids()\l+ segments()\l+ GetProjection()\l+ OverlapWith()\l# Init()\l# is_within_max_error()\l# compute_max_error()\l# InitDilute()\l# InitProjections()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,9 @@
+digraph "modules/routing/common" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cf0908393723ba7a8c57dadf70657b13 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="routing" fontname="Helvetica", fontsize="10", URL="dir_cf0908393723ba7a8c57dadf70657b13.html"]
+  dir_97c67f28ca3d2338e1793ef4c8380a19 [shape=box, label="common", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_97c67f28ca3d2338e1793ef4c8380a19.html"];
+  }
+}

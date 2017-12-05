@@ -1,0 +1,12 @@
+digraph "apollo::drivers::velodyne::Velodyne16Parser"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::velodyne\l::Velodyne16Parser\n||+ Velodyne16Parser()\l+ ~Velodyne16Parser()\l+ generate_pointcloud()\l+ order()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::drivers::velodyne\l::VelodyneParser\n|# inner_time_\l# sin_rot_table_\l# cos_rot_table_\l# last_time_stamp_\l# need_two_pt_correction_\l# mode_\l|+ VelodyneParser()\l+ VelodyneParser()\l+ ~VelodyneParser()\l+ generate_pointcloud()\l+ setup()\l+ order()\l+ get_calibration()\l+ get_last_timestamp()\l# get_nan_point()\l# init_angle_params()\l# compute_coords()\l# is_scan_valid()\l# unpack()\l# get_gps_stamp()\l# get_timestamp()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1velodyne_1_1VelodyneParser.html",tooltip="Velodyne data conversion class. "];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #calibration_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{apollo::drivers::velodyne\l::Calibration\n|+ laser_corrections_\l+ num_lasers_\l+ initialized_\l|+ Calibration()\l+ Calibration()\l+ read()\l+ write()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1drivers_1_1velodyne_1_1Calibration.html",tooltip="Calibration class storing entire configuration for the Velodyne. "];
+  Node4 -> Node2 [color="grey25",fontsize="10",style="solid",label=" #config_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{apollo::drivers::velodyne\l::Config\n|+ frame_id\l+ model\l+ topic\l+ npackets\l+ rpm\l+ firing_data_port\l+ positioning_data_port\l+ max_range\l+ min_range\l+ max_angle\land 6 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structapollo_1_1drivers_1_1velodyne_1_1Config.html"];
+}

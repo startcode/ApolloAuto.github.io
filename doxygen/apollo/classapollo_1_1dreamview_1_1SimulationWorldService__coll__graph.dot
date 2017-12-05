@@ -1,0 +1,6 @@
+digraph "apollo::dreamview::SimulationWorldService"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::dreamview::\lSimulationWorldService\n|+ kMaxMonitorItems\l|+ SimulationWorldService()\l+ world()\l+ GetUpdateAsJson()\l+ GetPlanningData()\l+ GetMapElements()\l+ Update()\l+ SetToClear()\l+ ReadyToPush()\l+ PublishMonitorMessage()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

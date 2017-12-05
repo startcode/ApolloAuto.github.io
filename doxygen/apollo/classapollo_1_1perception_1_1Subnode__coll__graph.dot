@@ -1,0 +1,12 @@
+digraph "apollo::perception::Subnode"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::Subnode\n|# id_\l# name_\l# reserve_\l# type_\l# sub_meta_events_\l# pub_meta_events_\l|+ Subnode()\l+ ~Subnode()\l+ Init()\l+ Stop()\l+ ProcEvents()\l+ id()\l+ name()\l+ reserve()\l+ DebugString()\l# InitInternal()\l# Run()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::perception\l::Thread\n|# tid_\l# started_\l# joinable_\l# thread_name_\l|+ Thread()\l+ Tid()\l+ SetJoinable()\l+ Start()\l+ Join()\l+ IsAlive()\l+ thread_name()\l+ set_thread_name()\l# Run()\l# ThreadRunner()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1Thread.html"];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #shared_data_manager_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{apollo::perception\l::SharedDataManager\n||+ SharedDataManager()\l+ ~SharedDataManager()\l+ Init()\l+ GetSharedData()\l+ Reset()\l+ RemoveStaleData()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1SharedDataManager.html"];
+  Node4 -> Node1 [color="grey25",fontsize="10",style="solid",label=" #event_manager_" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node4 [label="{apollo::perception\l::EventManager\n||+ EventManager()\l+ ~EventManager()\l+ Init()\l+ Publish()\l+ Subscribe()\l+ Subscribe()\l+ Reset()\l+ AvgLenOfEventQueues()\l+ MaxLenOfEventQueues()\l+ GetEventMeta()\l+ GetEventMeta()\l+ GetEventMeta()\l+ GetEventMeta()\l+ NumEvents()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1perception_1_1EventManager.html"];
+}

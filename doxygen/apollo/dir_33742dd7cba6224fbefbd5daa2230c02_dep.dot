@@ -1,0 +1,21 @@
+digraph "modules/perception/traffic_light/preprocessor" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_259d8cba57c282fe549a96238c660ace {
+    graph [ bgcolor="#ddddee", pencolor="black", label="traffic_light" fontname="Helvetica", fontsize="10", URL="dir_259d8cba57c282fe549a96238c660ace.html"]
+  dir_33742dd7cba6224fbefbd5daa2230c02 [shape=box, label="preprocessor", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_33742dd7cba6224fbefbd5daa2230c02.html"];
+  }
+  dir_28023798f8c6b3b1bc1a6e96351a74b5 [shape=box label="projection" URL="dir_28023798f8c6b3b1bc1a6e96351a74b5.html"];
+  dir_e6b59c7214001c824cfd48ec013b984d [shape=box label="interface" URL="dir_e6b59c7214001c824cfd48ec013b984d.html"];
+  dir_1e03cab5e9f880bc99d64dc90cf1745f [shape=box label="base" URL="dir_1e03cab5e9f880bc99d64dc90cf1745f.html"];
+  dir_4c1a26545ee9c743bf92254028874005 [shape=box label="lib" fillcolor="white" style="filled" color="red" URL="dir_4c1a26545ee9c743bf92254028874005.html"];
+  dir_28023798f8c6b3b1bc1a6e96351a74b5->dir_e6b59c7214001c824cfd48ec013b984d [headlabel="2", labeldistance=1.5 headhref="dir_000169_000167.html"];
+  dir_28023798f8c6b3b1bc1a6e96351a74b5->dir_4c1a26545ee9c743bf92254028874005 [headlabel="2", labeldistance=1.5 headhref="dir_000169_000145.html"];
+  dir_e6b59c7214001c824cfd48ec013b984d->dir_1e03cab5e9f880bc99d64dc90cf1745f [headlabel="11", labeldistance=1.5 headhref="dir_000167_000090.html"];
+  dir_e6b59c7214001c824cfd48ec013b984d->dir_4c1a26545ee9c743bf92254028874005 [headlabel="5", labeldistance=1.5 headhref="dir_000167_000145.html"];
+  dir_33742dd7cba6224fbefbd5daa2230c02->dir_28023798f8c6b3b1bc1a6e96351a74b5 [headlabel="1", labeldistance=1.5 headhref="dir_000168_000169.html"];
+  dir_33742dd7cba6224fbefbd5daa2230c02->dir_e6b59c7214001c824cfd48ec013b984d [headlabel="1", labeldistance=1.5 headhref="dir_000168_000167.html"];
+  dir_33742dd7cba6224fbefbd5daa2230c02->dir_1e03cab5e9f880bc99d64dc90cf1745f [headlabel="2", labeldistance=1.5 headhref="dir_000168_000090.html"];
+  dir_33742dd7cba6224fbefbd5daa2230c02->dir_4c1a26545ee9c743bf92254028874005 [headlabel="3", labeldistance=1.5 headhref="dir_000168_000145.html"];
+}

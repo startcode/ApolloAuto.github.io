@@ -1,0 +1,17 @@
+digraph "modules/perception/obstacle/lidar/roi_filter/hdmap_roi_filter/bitmap2d.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/perception\l/obstacle/lidar/roi\l_filter/hdmap_roi_filter\l/bitmap2d.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/perception\l/obstacle/lidar/roi\l_filter/hdmap_roi_filter\l/hdmap_roi_filter.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$hdmap__roi__filter_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/perception\l/obstacle/onboard/radar\l_process_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$radar__process__subnode_8h.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/perception\l/obstacle/lidar/roi\l_filter/hdmap_roi_filter\l/polygon_mask.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$polygon__mask_8h.html"];
+  Node4 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/perception\l/obstacle/lidar/roi\l_filter/hdmap_roi_filter\l/polygon_scan_converter.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$polygon__scan__converter_8h.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

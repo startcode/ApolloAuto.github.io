@@ -1,0 +1,22 @@
+digraph "modules/perception/traffic_light/interface/green_interface.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/perception\l/traffic_light/interface\l/green_interface.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/perception\l/traffic_light/onboard\l/proc_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proc__subnode_8h.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/perception\l/traffic_light/recognizer\l/classify.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classify_8h.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/perception\l/traffic_light/recognizer\l/unity_recognize.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unity__recognize_8h.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/perception\l/traffic_light/rectify\l/cropbox.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$cropbox_8h.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/perception\l/traffic_light/rectify\l/detection.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$detection_8h.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="modules/perception\l/traffic_light/rectify\l/select.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$select_8h.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="modules/perception\l/traffic_light/rectify\l/unity_rectify.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unity__rectify_8h.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="modules/perception\l/traffic_light/reviser\l/color_decision.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$color__decision_8h.html"];
+}

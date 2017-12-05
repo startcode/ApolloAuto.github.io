@@ -1,0 +1,6 @@
+digraph "apollo::planning::AnchorPoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Anchor\lPoint\n|+ path_point\l+ lateral_bound\l+ longitudinal_bound\l+ enforced\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

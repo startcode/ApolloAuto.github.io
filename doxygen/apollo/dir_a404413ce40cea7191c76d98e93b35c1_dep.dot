@@ -1,0 +1,9 @@
+digraph "modules/drivers/gnss/src/impl/parser/novatel" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_7e38b33b9847a9d8cc82422fd432389d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="parser" fontname="Helvetica", fontsize="10", URL="dir_7e38b33b9847a9d8cc82422fd432389d.html"]
+  dir_a404413ce40cea7191c76d98e93b35c1 [shape=box, label="novatel", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a404413ce40cea7191c76d98e93b35c1.html"];
+  }
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::BaseFilter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::BaseFilter\n|# name_\l|+ BaseFilter()\l+ ~BaseFilter()\l+ Initialize()\l+ Predict()\l+ UpdateWithObject()\l+ UpdateWithoutObject()\l+ GetState()\l+ GetState()\l+ GetAccelerationGain()\l+ GetOnlineCovariance()\l+ Name()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

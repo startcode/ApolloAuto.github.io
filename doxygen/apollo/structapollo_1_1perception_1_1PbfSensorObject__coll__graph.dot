@@ -1,0 +1,6 @@
+digraph "apollo::perception::PbfSensorObject"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::PbfSensorObject\n|+ sensor_type\l+ sensor_id\l+ timestamp\l+ object\l+ invisible_period\l|+ PbfSensorObject()\l+ PbfSensorObject()\l+ ~PbfSensorObject()\l+ PbfSensorObject()\l+ operator=()\l+ clone()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::TrackedObject"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::TrackedObject\n|+ object_ptr\l+ barycenter\l+ center\l+ size\l+ direction\l+ lane_direction\l+ anchor_point\l+ velocity\l+ velocity_uncertainty\l+ acceleration\l+ type\l+ association_score\l|+ TrackedObject()\l+ TrackedObject()\l+ clone()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

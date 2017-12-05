@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::Stream"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::Stream\n|+ NUM_STATUS\l# _status\l|+ ~Stream()\l+ get_status()\l+ connect()\l+ disconnect()\l+ register_login_data()\l+ login()\l+ read()\l+ write()\l+ write()\l+ create_tcp()\l+ create_udp()\l+ create_serial()\l+ create_ntrip()\l# Stream()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

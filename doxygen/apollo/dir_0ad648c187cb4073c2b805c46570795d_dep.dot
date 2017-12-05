@@ -1,0 +1,11 @@
+digraph "modules/monitor/hardware/can/esdcan" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_329d87c3786dc7d051e9cb192cd3ed9d {
+    graph [ bgcolor="#ddddee", pencolor="black", label="can" fontname="Helvetica", fontsize="10", URL="dir_329d87c3786dc7d051e9cb192cd3ed9d.html"]
+  dir_0ad648c187cb4073c2b805c46570795d [shape=box, label="esdcan", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0ad648c187cb4073c2b805c46570795d.html"];
+  }
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_0ad648c187cb4073c2b805c46570795d->dir_9a5e51f49964887903df6eed98080585 [headlabel="1", labeldistance=1.5 headhref="dir_000140_000050.html"];
+}

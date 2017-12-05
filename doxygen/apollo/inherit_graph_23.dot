@@ -1,0 +1,9 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::canbus::VehicleController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1canbus_1_1VehicleController.html",tooltip="This is the interface class of vehicle controller. It defines pure virtual functions, and also some implemented common functions. "];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::canbus::lincoln\l::LincolnController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1canbus_1_1lincoln_1_1LincolnController.html",tooltip="this class implements the vehicle controller for lincoln vehicle. "];
+}

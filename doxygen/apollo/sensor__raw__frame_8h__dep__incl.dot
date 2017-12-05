@@ -1,0 +1,8 @@
+digraph "modules/perception/obstacle/onboard/sensor_raw_frame.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/perception\l/obstacle/onboard/sensor\l_raw_frame.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/perception\l/obstacle/onboard/obstacle\l_perception.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$obstacle__perception_8h.html"];
+}

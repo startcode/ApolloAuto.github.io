@@ -1,0 +1,18 @@
+digraph "modules/perception/obstacle/lidar/object_builder" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cea3b47e46c6e7de2071488d5a5d379a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lidar" fontname="Helvetica", fontsize="10", URL="dir_cea3b47e46c6e7de2071488d5a5d379a.html"]
+  subgraph clusterdir_71c9c4a3e8d97e4822e238f277be0645 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_71c9c4a3e8d97e4822e238f277be0645.html"];
+    dir_71c9c4a3e8d97e4822e238f277be0645 [shape=plaintext label="object_builder"];
+    dir_80d259ed3707ad298759dca14311dadd [shape=box label="min_box" color="black" fillcolor="white" style="filled" URL="dir_80d259ed3707ad298759dca14311dadd.html"];
+  }
+  }
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e [shape=box label="interface" URL="dir_0e511d950e936e02d380312a7eeeff9e.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="10", labeldistance=1.5 headhref="dir_000156_000037.html"];
+  dir_80d259ed3707ad298759dca14311dadd->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000158_000037.html"];
+  dir_80d259ed3707ad298759dca14311dadd->dir_0e511d950e936e02d380312a7eeeff9e [headlabel="1", labeldistance=1.5 headhref="dir_000158_000156.html"];
+}

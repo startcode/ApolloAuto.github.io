@@ -1,0 +1,11 @@
+digraph "modules/drivers/delphi_esr/protocol" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1b7884a9a6729ead1c247e827e3fe257 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="delphi_esr" fontname="Helvetica", fontsize="10", URL="dir_1b7884a9a6729ead1c247e827e3fe257.html"]
+  dir_d2ff65659363cb14f1bd2cce6d05fe87 [shape=box, label="protocol", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d2ff65659363cb14f1bd2cce6d05fe87.html"];
+  }
+  dir_6ac68ed414d44d6f54320351cbdbfd7b [shape=box label="canbus" fillcolor="white" style="filled" color="red" URL="dir_6ac68ed414d44d6f54320351cbdbfd7b.html"];
+  dir_d2ff65659363cb14f1bd2cce6d05fe87->dir_6ac68ed414d44d6f54320351cbdbfd7b [headlabel="22", labeldistance=1.5 headhref="dir_000105_000095.html"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::ContiParams"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::ContiParams\n|+ probexist_vehicle\l+ probexist_pedestrian\l+ probexist_bicycle\l+ probexist_unknown\l+ lo_vel_rms_vehicle\l+ la_vel_rms_vehicle\l+ lo_dist_rms_vehicle\l+ la_dist_rms_vehicle\l+ lo_vel_rms_pedestrian\l+ la_vel_rms_pedestrian\land 10 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

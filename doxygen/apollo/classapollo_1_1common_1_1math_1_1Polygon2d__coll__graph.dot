@@ -1,0 +1,6 @@
+digraph "apollo::common::math::Polygon2d"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::math\l::Polygon2d\n|# points_\l# num_points_\l# line_segments_\l# is_convex_\l# area_\l# min_x_\l# max_x_\l# min_y_\l# max_y_\l|+ Polygon2d()\l+ Polygon2d()\l+ Polygon2d()\l+ points()\l+ line_segments()\l+ num_points()\l+ is_convex()\l+ area()\l+ DistanceToBoundary()\l+ DistanceTo()\land 19 more...\l+ ComputeConvexHull()\l# BuildFromPoints()\l# Next()\l# Prev()\l# ClipConvexHull()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

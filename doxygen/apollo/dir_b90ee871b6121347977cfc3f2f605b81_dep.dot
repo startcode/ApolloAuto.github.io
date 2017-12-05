@@ -1,0 +1,22 @@
+digraph "modules/canbus" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e05d7e2b1ecd646af5bb94391405f3b5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="modules" fontname="Helvetica", fontsize="10", URL="dir_e05d7e2b1ecd646af5bb94391405f3b5.html"]
+  subgraph clusterdir_b90ee871b6121347977cfc3f2f605b81 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_b90ee871b6121347977cfc3f2f605b81.html"];
+    dir_b90ee871b6121347977cfc3f2f605b81 [shape=plaintext label="canbus"];
+    dir_8bfc954622b6eda322c6010162fb6f65 [shape=box label="common" color="black" fillcolor="white" style="filled" URL="dir_8bfc954622b6eda322c6010162fb6f65.html"];
+    dir_409ce8b77f68958566edc8f54246278d [shape=box label="vehicle" color="red" fillcolor="white" style="filled" URL="dir_409ce8b77f68958566edc8f54246278d.html"];
+  }
+  }
+  dir_fa7c3dda3a065b7e0bb8d7e2b3a94e74 [shape=box label="drivers" fillcolor="white" style="filled" color="red" URL="dir_fa7c3dda3a065b7e0bb8d7e2b3a94e74.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_fa7c3dda3a065b7e0bb8d7e2b3a94e74->dir_9a5e51f49964887903df6eed98080585 [headlabel="25", labeldistance=1.5 headhref="dir_000031_000050.html"];
+  dir_409ce8b77f68958566edc8f54246278d->dir_fa7c3dda3a065b7e0bb8d7e2b3a94e74 [headlabel="28", labeldistance=1.5 headhref="dir_000047_000031.html"];
+  dir_409ce8b77f68958566edc8f54246278d->dir_9a5e51f49964887903df6eed98080585 [headlabel="2", labeldistance=1.5 headhref="dir_000047_000050.html"];
+  dir_b90ee871b6121347977cfc3f2f605b81->dir_fa7c3dda3a065b7e0bb8d7e2b3a94e74 [headlabel="32", labeldistance=1.5 headhref="dir_000045_000031.html"];
+  dir_b90ee871b6121347977cfc3f2f605b81->dir_409ce8b77f68958566edc8f54246278d [headlabel="6", labeldistance=1.5 headhref="dir_000045_000047.html"];
+  dir_b90ee871b6121347977cfc3f2f605b81->dir_9a5e51f49964887903df6eed98080585 [headlabel="5", labeldistance=1.5 headhref="dir_000045_000050.html"];
+}

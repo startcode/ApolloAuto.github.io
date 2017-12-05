@@ -1,0 +1,8 @@
+digraph "apollo::planning::SpiralProblemInterface"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Spiral\lProblemInterface\n||+ SpiralProblemInterface()\l+ ~SpiralProblemInterface()\l+ set_default_max_point\l_deviation()\l+ set_start_point()\l+ set_end_point()\l+ get_optimization_results()\l+ get_nlp_info()\l+ get_bounds_info()\l+ get_starting_point()\l+ eval_f()\l+ eval_grad_f()\l+ eval_g()\l+ eval_jac_g()\l+ eval_h()\l* init_points_\l* opt_theta_\l* opt_kappa_\l* opt_dkappa_\l* opt_s_\l* opt_x_\l* opt_y_\l* point_distances_\l* num_of_variables_\l* num_of_constraints_\land 21 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{Ipopt::TNLP\n||}",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

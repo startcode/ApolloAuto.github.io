@@ -1,0 +1,13 @@
+digraph "data/Ipopt-3.12.8/include/coin" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_8feee6deac61f5bcd09f936437a11ed9 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_8feee6deac61f5bcd09f936437a11ed9.html"]
+  subgraph clusterdir_fab47b3d7f997b08a57a2f1486911d09 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_fab47b3d7f997b08a57a2f1486911d09.html"];
+    dir_fab47b3d7f997b08a57a2f1486911d09 [shape=plaintext label="coin"];
+    dir_2d7b4d7b9b5982e4e6bef63eda0bcc5b [shape=box label="ThirdParty" color="black" fillcolor="white" style="filled" URL="dir_2d7b4d7b9b5982e4e6bef63eda0bcc5b.html"];
+  }
+  }
+}

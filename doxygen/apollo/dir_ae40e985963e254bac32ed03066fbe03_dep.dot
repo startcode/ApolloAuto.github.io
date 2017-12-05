@@ -1,0 +1,13 @@
+digraph "modules/e2e/online_system/px2_camera_image" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4bc46fc008b9deb1bed2ad02e8e30367 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="online_system" fontname="Helvetica", fontsize="10", URL="dir_4bc46fc008b9deb1bed2ad02e8e30367.html"]
+  subgraph clusterdir_ae40e985963e254bac32ed03066fbe03 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ae40e985963e254bac32ed03066fbe03.html"];
+    dir_ae40e985963e254bac32ed03066fbe03 [shape=plaintext label="px2_camera_image"];
+    dir_86d4327bef1d801bfddde78be1527227 [shape=box label="src" color="black" fillcolor="white" style="filled" URL="dir_86d4327bef1d801bfddde78be1527227.html"];
+  }
+  }
+}

@@ -1,0 +1,9 @@
+digraph "modules/prediction/container/pose" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_785e2b277299b71d04d4ff801adb13f8 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="container" fontname="Helvetica", fontsize="10", URL="dir_785e2b277299b71d04d4ff801adb13f8.html"]
+  dir_52654693a7cf345845d67ef00849565d [shape=box, label="pose", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_52654693a7cf345845d67ef00849565d.html"];
+  }
+}

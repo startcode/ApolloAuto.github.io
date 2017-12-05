@@ -1,0 +1,11 @@
+digraph "modules/common/time" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9a5e51f49964887903df6eed98080585 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="common" fontname="Helvetica", fontsize="10", URL="dir_9a5e51f49964887903df6eed98080585.html"]
+  dir_18dfe854a008e1bd2a0812b8bc9a59f4 [shape=box, label="time", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_18dfe854a008e1bd2a0812b8bc9a59f4.html"];
+  }
+  dir_46293fd709b395882e1fac4db34aa714 [shape=box label="configs" URL="dir_46293fd709b395882e1fac4db34aa714.html"];
+  dir_18dfe854a008e1bd2a0812b8bc9a59f4->dir_46293fd709b395882e1fac4db34aa714 [headlabel="1", labeldistance=1.5 headhref="dir_000065_000052.html"];
+}

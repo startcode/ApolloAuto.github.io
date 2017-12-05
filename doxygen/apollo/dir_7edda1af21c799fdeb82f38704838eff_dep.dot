@@ -1,0 +1,9 @@
+digraph "data/Ipopt-3.12.8/ThirdParty/HSL" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_92e83b7a1bc85b6e6a8f14b13a543e48 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="ThirdParty" fontname="Helvetica", fontsize="10", URL="dir_92e83b7a1bc85b6e6a8f14b13a543e48.html"]
+  dir_7edda1af21c799fdeb82f38704838eff [shape=box, label="HSL", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_7edda1af21c799fdeb82f38704838eff.html"];
+  }
+}

@@ -1,0 +1,34 @@
+digraph "modules/perception/obstacle/lidar/roi_filter/hdmap_roi_filter" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_e7a67241a75e6a79730dd2862934172f {
+    graph [ bgcolor="#ddddee", pencolor="black", label="roi_filter" fontname="Helvetica", fontsize="10", URL="dir_e7a67241a75e6a79730dd2862934172f.html"]
+  dir_e66c1fda6f62b3a39afa881a5f0b4005 [shape=box, label="hdmap_roi_filter", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e66c1fda6f62b3a39afa881a5f0b4005.html"];
+  }
+  dir_b7e54f8867fbb6821830910b8e5b05cd [shape=box label="common" URL="dir_b7e54f8867fbb6821830910b8e5b05cd.html"];
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e [shape=box label="interface" URL="dir_0e511d950e936e02d380312a7eeeff9e.html"];
+  dir_26fe869283d506fa4c34e278072f16b4 [shape=box label="onboard" URL="dir_26fe869283d506fa4c34e278072f16b4.html"];
+  dir_4c1a26545ee9c743bf92254028874005 [shape=box label="lib" fillcolor="white" style="filled" color="red" URL="dir_4c1a26545ee9c743bf92254028874005.html"];
+  dir_3220e30e13cded4e45f58b87a1a3558a->dir_b7e54f8867fbb6821830910b8e5b05cd [headlabel="1", labeldistance=1.5 headhref="dir_000037_000144.html"];
+  dir_3220e30e13cded4e45f58b87a1a3558a->dir_4c1a26545ee9c743bf92254028874005 [headlabel="3", labeldistance=1.5 headhref="dir_000037_000145.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="10", labeldistance=1.5 headhref="dir_000156_000037.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_9a5e51f49964887903df6eed98080585 [headlabel="7", labeldistance=1.5 headhref="dir_000156_000050.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_26fe869283d506fa4c34e278072f16b4 [headlabel="1", labeldistance=1.5 headhref="dir_000156_000163.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_4c1a26545ee9c743bf92254028874005 [headlabel="12", labeldistance=1.5 headhref="dir_000156_000145.html"];
+  dir_26fe869283d506fa4c34e278072f16b4->dir_b7e54f8867fbb6821830910b8e5b05cd [headlabel="1", labeldistance=1.5 headhref="dir_000163_000144.html"];
+  dir_26fe869283d506fa4c34e278072f16b4->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="10", labeldistance=1.5 headhref="dir_000163_000037.html"];
+  dir_26fe869283d506fa4c34e278072f16b4->dir_9a5e51f49964887903df6eed98080585 [headlabel="5", labeldistance=1.5 headhref="dir_000163_000050.html"];
+  dir_26fe869283d506fa4c34e278072f16b4->dir_0e511d950e936e02d380312a7eeeff9e [headlabel="9", labeldistance=1.5 headhref="dir_000163_000156.html"];
+  dir_26fe869283d506fa4c34e278072f16b4->dir_e66c1fda6f62b3a39afa881a5f0b4005 [headlabel="1", labeldistance=1.5 headhref="dir_000163_000160.html"];
+  dir_26fe869283d506fa4c34e278072f16b4->dir_4c1a26545ee9c743bf92254028874005 [headlabel="7", labeldistance=1.5 headhref="dir_000163_000145.html"];
+  dir_e66c1fda6f62b3a39afa881a5f0b4005->dir_b7e54f8867fbb6821830910b8e5b05cd [headlabel="1", labeldistance=1.5 headhref="dir_000160_000144.html"];
+  dir_e66c1fda6f62b3a39afa881a5f0b4005->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000160_000037.html"];
+  dir_e66c1fda6f62b3a39afa881a5f0b4005->dir_9a5e51f49964887903df6eed98080585 [headlabel="4", labeldistance=1.5 headhref="dir_000160_000050.html"];
+  dir_e66c1fda6f62b3a39afa881a5f0b4005->dir_0e511d950e936e02d380312a7eeeff9e [headlabel="1", labeldistance=1.5 headhref="dir_000160_000156.html"];
+  dir_e66c1fda6f62b3a39afa881a5f0b4005->dir_26fe869283d506fa4c34e278072f16b4 [headlabel="1", labeldistance=1.5 headhref="dir_000160_000163.html"];
+  dir_e66c1fda6f62b3a39afa881a5f0b4005->dir_4c1a26545ee9c743bf92254028874005 [headlabel="1", labeldistance=1.5 headhref="dir_000160_000145.html"];
+  dir_4c1a26545ee9c743bf92254028874005->dir_9a5e51f49964887903df6eed98080585 [headlabel="8", labeldistance=1.5 headhref="dir_000145_000050.html"];
+}

@@ -1,0 +1,8 @@
+digraph "apollo::common::adapter::AdapterBase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::adapter\l::AdapterBase\n||+ ~AdapterBase()\l+ topic_name()\l+ Observe()\l+ Empty()\l+ HasReceived()\l+ GetDelaySec()\l+ ClearData()\l+ DumpLatestMessage()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::common::adapter\l::Adapter\< D \>\n||+ Adapter()\l+ topic_name()\l+ FeedFile()\l+ FeedData()\l+ OnReceive()\l+ Observe()\l+ Empty()\l+ HasReceived()\l+ GetLatestObserved()\l+ GetLatestObservedPtr()\land 12 more...\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1common_1_1adapter_1_1Adapter.html",tooltip="this class serves as the interface and a layer of abstraction for Apollo modules to interact with var..."];
+}

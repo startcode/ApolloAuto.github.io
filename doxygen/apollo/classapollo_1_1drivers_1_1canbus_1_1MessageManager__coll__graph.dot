@@ -1,0 +1,6 @@
+digraph "apollo::drivers::canbus::MessageManager&lt; SensorType &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::canbus\l::MessageManager\< SensorType \>\n|# send_protocol_data_\l# recv_protocol_data_\l# protocol_data_map_\l# check_ids_\l# received_ids_\l# sensor_data_mutex_\l# sensor_data_\l# is_received_on_time_\l# cvar_\l|+ MessageManager()\l+ ~MessageManager()\l+ Parse()\l+ ClearSensorData()\l+ GetMutableCVar()\l+ GetMutableProtocolDataById()\l+ GetSensorData()\l+ ResetSendMessages()\l# AddRecvProtocolData()\l# AddSendProtocolData()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

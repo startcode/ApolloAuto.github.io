@@ -1,0 +1,6 @@
+digraph "apollo::perception::RadarTrackManager"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::RadarTrackManager\n||+ RadarTrackManager()\l+ ~RadarTrackManager()\l+ Process()\l+ Update()\l+ AssignTrackObsIdMatch()\l+ UpdateAssignedTrack()\l+ UpdateUnassignedTrack()\l+ DeleteLostTrack()\l+ CreateNewTrack()\l+ DistanceBetweenObs()\l+ GetRadarObs()\l+ GetTracks()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

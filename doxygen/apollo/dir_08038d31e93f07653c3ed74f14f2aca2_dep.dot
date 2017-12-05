@@ -1,0 +1,11 @@
+digraph "modules/perception/lib/config_manager" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_4c1a26545ee9c743bf92254028874005 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lib" fontname="Helvetica", fontsize="10", URL="dir_4c1a26545ee9c743bf92254028874005.html"]
+  dir_08038d31e93f07653c3ed74f14f2aca2 [shape=box, label="config_manager", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_08038d31e93f07653c3ed74f14f2aca2.html"];
+  }
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_08038d31e93f07653c3ed74f14f2aca2->dir_9a5e51f49964887903df6eed98080585 [headlabel="1", labeldistance=1.5 headhref="dir_000147_000050.html"];
+}

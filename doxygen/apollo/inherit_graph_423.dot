@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Timestamp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTimestamp.html",tooltip="the default timestamp uses std::chrono::system_clock. The system_clock is a system-wide realtime cloc..."];
+}

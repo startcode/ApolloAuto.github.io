@@ -1,0 +1,8 @@
+digraph "apollo::control::LatController"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::control::LatController\n|# vehicle_param_\l# trajectory_analyzer_\l# ts_\l# cf_\l# cr_\l# wheelbase_\l# mass_\l# lf_\l# lr_\l# iz_\land 28 more...\l|+ LatController()\l+ ~LatController()\l+ Init()\l+ ComputeControlCommand()\l+ Reset()\l+ Stop()\l+ Name()\l# UpdateStateAnalyticalMatching()\l# UpdateMatrix()\l# UpdateMatrixCompound()\l# ComputeFeedForward()\l# GetLateralError()\l# ComputeLateralErrors()\l# LoadControlConf()\l# InitializeFilters()\l# LoadLatGainScheduler()\l# LogInitParameters()\l# ProcessLogs()\l# CloseLogFile()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::control::Controller\n||+ Controller()\l+ ~Controller()\l+ Init()\l+ ComputeControlCommand()\l+ Reset()\l+ Name()\l+ Stop()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1control_1_1Controller.html",tooltip="base class for all controllers. "];
+}

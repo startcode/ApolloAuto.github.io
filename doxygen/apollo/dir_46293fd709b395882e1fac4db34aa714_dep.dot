@@ -1,0 +1,9 @@
+digraph "modules/common/configs" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_9a5e51f49964887903df6eed98080585 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="common" fontname="Helvetica", fontsize="10", URL="dir_9a5e51f49964887903df6eed98080585.html"]
+  dir_46293fd709b395882e1fac4db34aa714 [shape=box, label="configs", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_46293fd709b395882e1fac4db34aa714.html"];
+  }
+}

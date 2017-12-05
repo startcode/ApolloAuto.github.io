@@ -1,0 +1,9 @@
+digraph "data/Ipopt-3.12.8/Ipopt/MSVisualStudio/v8-ifort/IpOptFSS" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_74ce8c21151158fe4010917c4ad53898 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="v8-ifort" fontname="Helvetica", fontsize="10", URL="dir_74ce8c21151158fe4010917c4ad53898.html"]
+  dir_0db6b33f853660c43a39fb42b5e7814a [shape=box, label="IpOptFSS", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_0db6b33f853660c43a39fb42b5e7814a.html"];
+  }
+}

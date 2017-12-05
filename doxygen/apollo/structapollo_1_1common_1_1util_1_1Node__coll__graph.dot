@@ -1,0 +1,7 @@
+digraph "apollo::common::util::Node&lt; K, V &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::util\l::Node\< K, V \>\n|+ key\l+ val\l|+ Node()\l+ Node()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +prev\n+next" ,arrowhead="odiamond",fontname="Helvetica"];
+}

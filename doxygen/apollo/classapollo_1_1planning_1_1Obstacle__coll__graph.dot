@@ -1,0 +1,6 @@
+digraph "apollo::planning::Obstacle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Obstacle\n||+ Obstacle()\l+ Obstacle()\l+ Obstacle()\l+ Id()\l+ PerceptionId()\l+ IsStatic()\l+ IsVirtual()\l+ GetPointAtTime()\l+ GetBoundingBox()\l+ PerceptionBoundingBox()\l+ PerceptionPolygon()\l+ Trajectory()\l+ HasTrajectory()\l+ Perception()\l+ CreateObstacles()\l+ CreateStaticVirtualObstacles()\l+ IsStaticObstacle()\l+ IsVirtualObstacle()\l+ IsValidTrajectoryPoint()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

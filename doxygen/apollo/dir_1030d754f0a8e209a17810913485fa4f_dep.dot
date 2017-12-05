@@ -1,0 +1,9 @@
+digraph "modules/planning/tasks/speed_decider" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_71dbafa6aca09b7fb8e2860fcceb6177 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tasks" fontname="Helvetica", fontsize="10", URL="dir_71dbafa6aca09b7fb8e2860fcceb6177.html"]
+  dir_1030d754f0a8e209a17810913485fa4f [shape=box, label="speed_decider", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1030d754f0a8e209a17810913485fa4f.html"];
+  }
+}

@@ -1,0 +1,6 @@
+digraph "apollo::planning::PolynomialXd"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::PolynomialXd\n||+ PolynomialXd()\l+ PolynomialXd()\l+ PolynomialXd()\l+ operator()()\l+ operator[]()\l+ SetParams()\l+ order()\l+ params()\l+ DerivedFrom()\l+ IntegratedFrom()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

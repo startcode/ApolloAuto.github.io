@@ -1,0 +1,6 @@
+digraph "apollo::planning::PathData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::PathData\n||+ PathData()\l+ SetDiscretizedPath()\l+ SetFrenetPath()\l+ SetReferenceLine()\l+ discretized_path()\l+ frenet_frame_path()\l+ GetPathPointWithPathS()\l+ path_data_history()\l+ GetPathPointWithRefS()\l+ Clear()\l+ IsEmpty()\l+ DebugString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

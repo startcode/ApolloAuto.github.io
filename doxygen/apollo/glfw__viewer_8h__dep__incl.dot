@@ -1,0 +1,17 @@
+digraph "modules/perception/obstacle/lidar/visualizer/opengl_visualizer/glfw_viewer.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/perception\l/obstacle/lidar/visualizer\l/opengl_visualizer/glfw\l_viewer.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/perception\l/obstacle/lidar/visualizer\l/opengl_visualizer/opengl\l_visualizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$opengl__visualizer_8h.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/perception\l/obstacle/onboard/lidar\l_process.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lidar__process_8h.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/perception\l/obstacle/onboard/obstacle\l_perception.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$obstacle__perception_8h.html"];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/perception\l/obstacle/onboard/lidar\l_process_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lidar__process__subnode_8h.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/perception\l/obstacle/onboard/radar\l_process_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$radar__process__subnode_8h.html"];
+}

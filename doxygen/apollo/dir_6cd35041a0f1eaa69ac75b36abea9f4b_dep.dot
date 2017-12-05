@@ -1,0 +1,13 @@
+digraph "data/Ipopt-3.12.8/BuildTools" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_f0d83093135db3e44f9c1fbf5f5fb322 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Ipopt-3.12.8" fontname="Helvetica", fontsize="10", URL="dir_f0d83093135db3e44f9c1fbf5f5fb322.html"]
+  subgraph clusterdir_6cd35041a0f1eaa69ac75b36abea9f4b {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6cd35041a0f1eaa69ac75b36abea9f4b.html"];
+    dir_6cd35041a0f1eaa69ac75b36abea9f4b [shape=plaintext label="BuildTools"];
+    dir_4a943e5f4e5c2019856df14a432e5292 [shape=box label="headers" color="black" fillcolor="white" style="filled" URL="dir_4a943e5f4e5c2019856df14a432e5292.html"];
+  }
+  }
+}

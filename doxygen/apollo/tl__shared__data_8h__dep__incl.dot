@@ -1,0 +1,8 @@
+digraph "modules/perception/traffic_light/base/tl_shared_data.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/perception\l/traffic_light/base\l/tl_shared_data.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/perception\l/traffic_light/onboard\l/preprocessor_subnode.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$preprocessor__subnode_8h.html"];
+}

@@ -1,0 +1,22 @@
+digraph "modules/perception/obstacle/lidar/type_fuser" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cea3b47e46c6e7de2071488d5a5d379a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lidar" fontname="Helvetica", fontsize="10", URL="dir_cea3b47e46c6e7de2071488d5a5d379a.html"]
+  subgraph clusterdir_acdb472f85482fbc57069e9738f4c815 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_acdb472f85482fbc57069e9738f4c815.html"];
+    dir_acdb472f85482fbc57069e9738f4c815 [shape=plaintext label="type_fuser"];
+    dir_77f44ed029a6c8ab3771277b649c5aff [shape=box label="sequence_type_fuser" color="black" fillcolor="white" style="filled" URL="dir_77f44ed029a6c8ab3771277b649c5aff.html"];
+  }
+  }
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e [shape=box label="interface" URL="dir_0e511d950e936e02d380312a7eeeff9e.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60 [shape=box label="common" URL="dir_f4b69bafa7685ee9950d2dee42a2cc60.html"];
+  dir_77f44ed029a6c8ab3771277b649c5aff->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000075_000037.html"];
+  dir_77f44ed029a6c8ab3771277b649c5aff->dir_0e511d950e936e02d380312a7eeeff9e [headlabel="1", labeldistance=1.5 headhref="dir_000075_000156.html"];
+  dir_77f44ed029a6c8ab3771277b649c5aff->dir_f4b69bafa7685ee9950d2dee42a2cc60 [headlabel="1", labeldistance=1.5 headhref="dir_000075_000149.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="10", labeldistance=1.5 headhref="dir_000156_000037.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_f4b69bafa7685ee9950d2dee42a2cc60 [headlabel="1", labeldistance=1.5 headhref="dir_000156_000149.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000149_000037.html"];
+}

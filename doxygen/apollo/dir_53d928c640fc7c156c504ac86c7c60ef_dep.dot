@@ -1,0 +1,11 @@
+digraph "modules/routing/strategy" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cf0908393723ba7a8c57dadf70657b13 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="routing" fontname="Helvetica", fontsize="10", URL="dir_cf0908393723ba7a8c57dadf70657b13.html"]
+  dir_53d928c640fc7c156c504ac86c7c60ef [shape=box, label="strategy", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_53d928c640fc7c156c504ac86c7c60ef.html"];
+  }
+  dir_78fe9c30b92ca935d94a84bb29d837c1 [shape=box label="graph" URL="dir_78fe9c30b92ca935d94a84bb29d837c1.html"];
+  dir_53d928c640fc7c156c504ac86c7c60ef->dir_78fe9c30b92ca935d94a84bb29d837c1 [headlabel="3", labeldistance=1.5 headhref="dir_000218_000217.html"];
+}

@@ -1,0 +1,8 @@
+digraph "apollo::routing::NodeWithRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::routing::NodeWith\lRange\n||+ NodeWithRange()\l+ NodeWithRange()\l+ NodeWithRange()\l+ ~NodeWithRange()\l+ operator\<()\l+ GetTopoNode()\l+ IsVirtual()\l+ RoadId()\l+ LaneId()\l+ FullLength()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::routing::NodeSRange\n||+ NodeSRange()\l+ NodeSRange()\l+ ~NodeSRange()\l+ operator\<()\l+ IsValid()\l+ StartS()\l+ EndS()\l+ IsEnoughForChangeLane()\l+ Length()\l+ SetStartS()\l+ SetEndS()\l+ MergeRangeOverlap()\l+ IsEnoughForChangeLane()\l+ IsEnoughForChangeLane()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1routing_1_1NodeSRange.html"];
+}

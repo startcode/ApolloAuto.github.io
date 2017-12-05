@@ -1,0 +1,16 @@
+digraph "apollo::planning::PolynomialCurve1d"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::Polynomial\lCurve1d\n|# param_\l|+ PolynomialCurve1d()\l+ ~PolynomialCurve1d()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::planning::Curve1d\n||+ Curve1d()\l+ ~Curve1d()\l+ Evaluate()\l+ ParamLength()\l+ ToString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Curve1d.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::planning::CubicPolynomial\lCurve1d\n||+ CubicPolynomialCurve1d()\l+ ~CubicPolynomialCurve1d()\l+ CubicPolynomialCurve1d()\l+ CubicPolynomialCurve1d()\l+ CubicPolynomialCurve1d()\l+ Evaluate()\l+ ParamLength()\l+ ToString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1CubicPolynomialCurve1d.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{apollo::planning::Quartic\lPolynomialCurve1d\n||+ QuarticPolynomialCurve1d()\l+ QuarticPolynomialCurve1d()\l+ QuarticPolynomialCurve1d()\l+ QuarticPolynomialCurve1d()\l+ ~QuarticPolynomialCurve1d()\l+ Evaluate()\l+ ParamLength()\l+ ToString()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QuarticPolynomialCurve1d.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{apollo::planning::Quintic\lPolynomialCurve1d\n|# coef_\l# start_condition_\l# end_condition_\l|+ QuinticPolynomialCurve1d()\l+ QuinticPolynomialCurve1d()\l+ QuinticPolynomialCurve1d()\l+ QuinticPolynomialCurve1d()\l+ ~QuinticPolynomialCurve1d()\l+ Evaluate()\l+ ParamLength()\l+ ToString()\l# compute_coefficients()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QuinticPolynomialCurve1d.html"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{apollo::planning::Quintic\lSpiralPath\n|+ THETA0\l+ KAPPA0\l+ DKAPPA0\l+ THETA1\l+ KAPPA1\l+ DKAPPA1\l+ DELTA_S\l|+ QuinticSpiralPath()\l+ QuinticSpiralPath()\l+ QuinticSpiralPath()\l+ ComputeCartesianDeviationX()\l+ ComputeCartesianDeviationY()\l+ DeriveCartesianDeviation()\l+ DeriveKappaDerivative()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QuinticSpiralPath.html"];
+}

@@ -1,0 +1,6 @@
+digraph "ma77_control_d"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{ma77_control_d\n|+ f_arrays\l+ print_level\l+ unit_diagnostics\l+ unit_error\l+ unit_warning\l+ bits\l+ buffer_lpage\l+ buffer_npage\l+ file_size\l+ maxstore\land 19 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

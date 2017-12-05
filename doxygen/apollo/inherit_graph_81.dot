@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::dreamview::\lSimControl",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1dreamview_1_1SimControl.html",tooltip="A module that simulates a &#39;perfect control&#39; algorithm, which assumes an ideal world where the car can..."];
+}

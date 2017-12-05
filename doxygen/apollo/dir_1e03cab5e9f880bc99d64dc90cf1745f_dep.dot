@@ -1,0 +1,11 @@
+digraph "modules/perception/traffic_light/base" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_259d8cba57c282fe549a96238c660ace {
+    graph [ bgcolor="#ddddee", pencolor="black", label="traffic_light" fontname="Helvetica", fontsize="10", URL="dir_259d8cba57c282fe549a96238c660ace.html"]
+  dir_1e03cab5e9f880bc99d64dc90cf1745f [shape=box, label="base", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1e03cab5e9f880bc99d64dc90cf1745f.html"];
+  }
+  dir_11a962cbfa1782628072c643f9fa1d3c [shape=box label="onboard" URL="dir_11a962cbfa1782628072c643f9fa1d3c.html"];
+  dir_1e03cab5e9f880bc99d64dc90cf1745f->dir_11a962cbfa1782628072c643f9fa1d3c [headlabel="1", labeldistance=1.5 headhref="dir_000090_000038.html"];
+}

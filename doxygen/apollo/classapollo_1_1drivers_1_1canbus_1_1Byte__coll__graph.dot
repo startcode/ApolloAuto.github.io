@@ -1,0 +1,6 @@
+digraph "apollo::drivers::canbus::Byte"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::canbus\l::Byte\n||+ Byte()\l+ Byte()\l+ ~Byte()\l+ set_bit_1()\l+ set_bit_0()\l+ is_bit_1()\l+ set_value()\l+ set_value_high_4_bits()\l+ set_value_low_4_bits()\l+ set_value()\land 6 more...\l+ byte_to_hex()\l+ byte_to_hex()\l+ byte_to_binary()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

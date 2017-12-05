@@ -1,0 +1,11 @@
+digraph "modules/dreamview/backend/map" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_96faa03b0ce06f0a057f0d165ef27364 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="backend" fontname="Helvetica", fontsize="10", URL="dir_96faa03b0ce06f0a057f0d165ef27364.html"]
+  dir_e04da7861bf4c0e69e8ccd2175cae821 [shape=box, label="map", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e04da7861bf4c0e69e8ccd2175cae821.html"];
+  }
+  dir_bc4fbd717b8d61d0dc75a15f0986d7f7 [shape=box label="map" fillcolor="white" style="filled" color="red" URL="dir_bc4fbd717b8d61d0dc75a15f0986d7f7.html"];
+  dir_e04da7861bf4c0e69e8ccd2175cae821->dir_bc4fbd717b8d61d0dc75a15f0986d7f7 [headlabel="1", labeldistance=1.5 headhref="dir_000092_000061.html"];
+}

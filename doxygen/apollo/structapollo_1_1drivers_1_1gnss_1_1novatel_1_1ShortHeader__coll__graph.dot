@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::ShortHeader"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::ShortHeader\n|+ sync\l+ message_length\l+ message_id\l+ gps_week\l+ gps_millisecs\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

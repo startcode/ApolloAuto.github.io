@@ -1,0 +1,6 @@
+digraph "apollo::perception::EventManager"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::EventManager\n||+ EventManager()\l+ ~EventManager()\l+ Init()\l+ Publish()\l+ Subscribe()\l+ Subscribe()\l+ Reset()\l+ AvgLenOfEventQueues()\l+ MaxLenOfEventQueues()\l+ GetEventMeta()\l+ GetEventMeta()\l+ GetEventMeta()\l+ GetEventMeta()\l+ NumEvents()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::hdmap::adapter::LaneInternal"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::hdmap::adapter\l::LaneInternal\n|+ lane\l+ overlap_signals\l+ overlap_objects\l+ overlap_junctions\l+ overlap_lanes\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

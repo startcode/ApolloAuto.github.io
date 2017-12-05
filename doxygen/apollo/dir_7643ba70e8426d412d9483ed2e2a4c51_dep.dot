@@ -1,0 +1,15 @@
+digraph "modules/prediction/network" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_98def79fa8ada504f25cb6167266aa6e {
+    graph [ bgcolor="#ddddee", pencolor="black", label="prediction" fontname="Helvetica", fontsize="10", URL="dir_98def79fa8ada504f25cb6167266aa6e.html"]
+  subgraph clusterdir_7643ba70e8426d412d9483ed2e2a4c51 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_7643ba70e8426d412d9483ed2e2a4c51.html"];
+    dir_7643ba70e8426d412d9483ed2e2a4c51 [shape=plaintext label="network"];
+    dir_50310c89c2cdac801d937db43da3351e [shape=box label="rnn_model" color="black" fillcolor="white" style="filled" URL="dir_50310c89c2cdac801d937db43da3351e.html"];
+  }
+  }
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_50310c89c2cdac801d937db43da3351e->dir_9a5e51f49964887903df6eed98080585 [headlabel="1", labeldistance=1.5 headhref="dir_000207_000050.html"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::RawImuX"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::RawImuX\n|+ imu_error\l+ imu_type\l+ gps_week\l+ gps_seconds\l+ imuStatus\l+ z_velocity_change\l+ y_velocity_change_neg\l+ x_velocity_change\l+ z_angle_change\l+ y_angle_change_neg\l+ x_angle_change\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

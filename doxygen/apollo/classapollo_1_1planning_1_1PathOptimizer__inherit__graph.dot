@@ -1,0 +1,12 @@
+digraph "apollo::planning::PathOptimizer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::PathOptimizer\n||+ PathOptimizer()\l+ ~PathOptimizer()\l+ Execute()\l# Process()\l# RecordDebugInfo()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::planning::Task\n|# is_init_\l# frame_\l# reference_line_info_\l|+ Task()\l+ ~Task()\l+ Name()\l+ Execute()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Task.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::planning::DpPoly\lPathOptimizer\n||+ DpPolyPathOptimizer()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1DpPolyPathOptimizer.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{apollo::planning::QpSpline\lPathOptimizer\n||+ QpSplinePathOptimizer()\l+ Init()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1QpSplinePathOptimizer.html"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::common::math::KalmanFilter&lt; T, XN, ZN, UN &gt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::common::math\l::KalmanFilter\< T, XN,\l ZN, UN \>\n||+ KalmanFilter()\l+ SetStateEstimate()\l+ KalmanFilter()\l+ ~KalmanFilter()\l+ SetTransitionMatrix()\l+ SetTransitionNoise()\l+ SetObservationMatrix()\l+ SetObservationNoise()\l+ SetStateCovariance()\l+ SetControlMatrix()\land 10 more...\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

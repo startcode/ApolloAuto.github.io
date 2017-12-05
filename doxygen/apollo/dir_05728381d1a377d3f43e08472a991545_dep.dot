@@ -1,0 +1,17 @@
+digraph "modules/drivers/canbus/can_comm" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_6ac68ed414d44d6f54320351cbdbfd7b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="canbus" fontname="Helvetica", fontsize="10", URL="dir_6ac68ed414d44d6f54320351cbdbfd7b.html"]
+  dir_05728381d1a377d3f43e08472a991545 [shape=box, label="can_comm", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_05728381d1a377d3f43e08472a991545.html"];
+  }
+  dir_89e2469f18c5e5da51766ec9b3e212fa [shape=box label="common" URL="dir_89e2469f18c5e5da51766ec9b3e212fa.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_c2d7962d4ce0d329d56f66f204c70aab [shape=box label="can_client" fillcolor="white" style="filled" color="red" URL="dir_c2d7962d4ce0d329d56f66f204c70aab.html"];
+  dir_05728381d1a377d3f43e08472a991545->dir_89e2469f18c5e5da51766ec9b3e212fa [headlabel="3", labeldistance=1.5 headhref="dir_000100_000101.html"];
+  dir_05728381d1a377d3f43e08472a991545->dir_9a5e51f49964887903df6eed98080585 [headlabel="8", labeldistance=1.5 headhref="dir_000100_000050.html"];
+  dir_05728381d1a377d3f43e08472a991545->dir_c2d7962d4ce0d329d56f66f204c70aab [headlabel="2", labeldistance=1.5 headhref="dir_000100_000096.html"];
+  dir_c2d7962d4ce0d329d56f66f204c70aab->dir_89e2469f18c5e5da51766ec9b3e212fa [headlabel="3", labeldistance=1.5 headhref="dir_000096_000101.html"];
+  dir_c2d7962d4ce0d329d56f66f204c70aab->dir_9a5e51f49964887903df6eed98080585 [headlabel="3", labeldistance=1.5 headhref="dir_000096_000050.html"];
+}

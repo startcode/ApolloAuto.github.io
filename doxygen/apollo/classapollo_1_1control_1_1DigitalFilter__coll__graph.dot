@@ -1,0 +1,6 @@
+digraph "apollo::control::DigitalFilter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::control::Digital\lFilter\n||+ DigitalFilter()\l+ DigitalFilter()\l+ ~DigitalFilter()\l+ Filter()\l+ set_denominators()\l+ set_numerators()\l+ set_coefficients()\l+ set_dead_zone()\l+ denominators()\l+ numerators()\l+ dead_zone()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::perception::TrackObjectDistance"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::TrackObjectDistance\n|# s_location_distance\l_weight_\l# s_direction_distance\l_weight_\l# s_bbox_size_distance\l_weight_\l# s_point_num_distance\l_weight_\l# s_histogram_distance\l_weight_\l|+ Name()\l+ SetLocationDistanceWeight()\l+ SetDirectionDistanceWeight()\l+ SetBboxSizeDistanceWeight()\l+ SetPointNumDistanceWeight()\l+ SetHistogramDistanceWeight()\l+ ComputeDistance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

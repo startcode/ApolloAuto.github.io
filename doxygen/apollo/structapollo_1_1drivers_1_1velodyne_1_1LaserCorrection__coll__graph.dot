@@ -1,0 +1,6 @@
+digraph "apollo::drivers::velodyne::LaserCorrection"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::velodyne\l::LaserCorrection\n|+ rot_correction\l+ vert_correction\l+ dist_correction\l+ dist_correction_x\l+ dist_correction_y\l+ vert_offset_correction\l+ horiz_offset_correction\l+ max_intensity\l+ min_intensity\l+ focal_distance\land 7 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

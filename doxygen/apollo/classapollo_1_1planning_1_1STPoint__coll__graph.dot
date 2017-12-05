@@ -1,0 +1,8 @@
+digraph "apollo::planning::STPoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::STPoint\n||+ STPoint()\l+ STPoint()\l+ STPoint()\l+ s()\l+ t()\l+ set_s()\l+ set_t()\l+ DebugString()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::common::math\l::Vec2d\n|# x_\l# y_\l|+ Vec2d()\l+ Vec2d()\l+ x()\l+ y()\l+ set_x()\l+ set_y()\l+ Length()\l+ LengthSquare()\l+ Angle()\l+ Normalize()\land 15 more...\l+ CreateUnitVec2d()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1common_1_1math_1_1Vec2d.html",tooltip="Implements a class of 2-dimensional vectors. "];
+}

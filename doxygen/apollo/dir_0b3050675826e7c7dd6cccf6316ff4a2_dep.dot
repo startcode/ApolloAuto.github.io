@@ -1,0 +1,20 @@
+digraph "modules/drivers/conti_radar" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_fa7c3dda3a065b7e0bb8d7e2b3a94e74 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="drivers" fontname="Helvetica", fontsize="10", URL="dir_fa7c3dda3a065b7e0bb8d7e2b3a94e74.html"]
+  subgraph clusterdir_0b3050675826e7c7dd6cccf6316ff4a2 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_0b3050675826e7c7dd6cccf6316ff4a2.html"];
+    dir_0b3050675826e7c7dd6cccf6316ff4a2 [shape=plaintext label="conti_radar"];
+    dir_97ccffef837fc87790ecb0f953e3bc4f [shape=box label="protocol" color="black" fillcolor="white" style="filled" URL="dir_97ccffef837fc87790ecb0f953e3bc4f.html"];
+  }
+  }
+  dir_6ac68ed414d44d6f54320351cbdbfd7b [shape=box label="canbus" fillcolor="white" style="filled" color="red" URL="dir_6ac68ed414d44d6f54320351cbdbfd7b.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_6ac68ed414d44d6f54320351cbdbfd7b->dir_9a5e51f49964887903df6eed98080585 [headlabel="17", labeldistance=1.5 headhref="dir_000095_000050.html"];
+  dir_97ccffef837fc87790ecb0f953e3bc4f->dir_6ac68ed414d44d6f54320351cbdbfd7b [headlabel="9", labeldistance=1.5 headhref="dir_000103_000095.html"];
+  dir_0b3050675826e7c7dd6cccf6316ff4a2->dir_6ac68ed414d44d6f54320351cbdbfd7b [headlabel="19", labeldistance=1.5 headhref="dir_000102_000095.html"];
+  dir_0b3050675826e7c7dd6cccf6316ff4a2->dir_97ccffef837fc87790ecb0f953e3bc4f [headlabel="2", labeldistance=1.5 headhref="dir_000102_000103.html"];
+  dir_0b3050675826e7c7dd6cccf6316ff4a2->dir_9a5e51f49964887903df6eed98080585 [headlabel="7", labeldistance=1.5 headhref="dir_000102_000050.html"];
+}

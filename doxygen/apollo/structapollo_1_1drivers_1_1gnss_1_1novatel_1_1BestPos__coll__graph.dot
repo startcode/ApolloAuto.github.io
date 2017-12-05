@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::BestPos"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::BestPos\n|+ solution_status\l+ position_type\l+ latitude\l+ longitude\l+ height_msl\l+ undulation\l+ datum_id\l+ latitude_std_dev\l+ longitude_std_dev\l+ height_std_dev\land 11 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

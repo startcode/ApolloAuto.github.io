@@ -1,0 +1,11 @@
+digraph "modules/control/common/pid_BC_controller.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/control/common\l/pid_BC_controller.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/control/common\l/pid_controller.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$pid__controller_8h.html",tooltip="Defines the PIDBCController class. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/control/proto\l/pid_conf.pb.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

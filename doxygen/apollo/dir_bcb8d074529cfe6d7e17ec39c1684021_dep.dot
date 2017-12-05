@@ -1,0 +1,20 @@
+digraph "modules/perception/obstacle/fusion/probabilistic_fusion" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_1af7f98ceda56fda8606c13300b29571 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="fusion" fontname="Helvetica", fontsize="10", URL="dir_1af7f98ceda56fda8606c13300b29571.html"]
+  dir_bcb8d074529cfe6d7e17ec39c1684021 [shape=box, label="probabilistic_fusion", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_bcb8d074529cfe6d7e17ec39c1684021.html"];
+  }
+  dir_c8d4977e8b40509932329b2307e81c26 [shape=box label="interface" URL="dir_c8d4977e8b40509932329b2307e81c26.html"];
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60 [shape=box label="common" URL="dir_f4b69bafa7685ee9950d2dee42a2cc60.html"];
+  dir_bcb8d074529cfe6d7e17ec39c1684021->dir_c8d4977e8b40509932329b2307e81c26 [headlabel="1", labeldistance=1.5 headhref="dir_000152_000151.html"];
+  dir_bcb8d074529cfe6d7e17ec39c1684021->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="5", labeldistance=1.5 headhref="dir_000152_000037.html"];
+  dir_bcb8d074529cfe6d7e17ec39c1684021->dir_9a5e51f49964887903df6eed98080585 [headlabel="11", labeldistance=1.5 headhref="dir_000152_000050.html"];
+  dir_bcb8d074529cfe6d7e17ec39c1684021->dir_f4b69bafa7685ee9950d2dee42a2cc60 [headlabel="2", labeldistance=1.5 headhref="dir_000152_000149.html"];
+  dir_c8d4977e8b40509932329b2307e81c26->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="2", labeldistance=1.5 headhref="dir_000151_000037.html"];
+  dir_c8d4977e8b40509932329b2307e81c26->dir_9a5e51f49964887903df6eed98080585 [headlabel="1", labeldistance=1.5 headhref="dir_000151_000050.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000149_000037.html"];
+}

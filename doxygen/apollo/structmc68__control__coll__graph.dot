@@ -1,0 +1,6 @@
+digraph "mc68_control"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{mc68_control\n|+ f_array_in\l+ f_array_out\l+ min_l_workspace\l+ lp\l+ wp\l+ mp\l+ nemin\l+ print_level\l+ row_full_thresh\l+ row_search\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

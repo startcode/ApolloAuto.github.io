@@ -1,0 +1,31 @@
+digraph "modules/perception/obstacle/lidar/segmentation" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_cea3b47e46c6e7de2071488d5a5d379a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="lidar" fontname="Helvetica", fontsize="10", URL="dir_cea3b47e46c6e7de2071488d5a5d379a.html"]
+  subgraph clusterdir_ca3f7d30cddeb31bd6182953afd14f2d {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_ca3f7d30cddeb31bd6182953afd14f2d.html"];
+    dir_ca3f7d30cddeb31bd6182953afd14f2d [shape=plaintext label="segmentation"];
+    dir_4025c87b683dadcf41f9c751af7ac291 [shape=box label="cnnseg" color="black" fillcolor="white" style="filled" URL="dir_4025c87b683dadcf41f9c751af7ac291.html"];
+  }
+  }
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e [shape=box label="interface" URL="dir_0e511d950e936e02d380312a7eeeff9e.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60 [shape=box label="common" URL="dir_f4b69bafa7685ee9950d2dee42a2cc60.html"];
+  dir_4c1a26545ee9c743bf92254028874005 [shape=box label="lib" fillcolor="white" style="filled" color="red" URL="dir_4c1a26545ee9c743bf92254028874005.html"];
+  dir_3220e30e13cded4e45f58b87a1a3558a->dir_4c1a26545ee9c743bf92254028874005 [headlabel="3", labeldistance=1.5 headhref="dir_000037_000145.html"];
+  dir_4025c87b683dadcf41f9c751af7ac291->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="2", labeldistance=1.5 headhref="dir_000073_000037.html"];
+  dir_4025c87b683dadcf41f9c751af7ac291->dir_9a5e51f49964887903df6eed98080585 [headlabel="3", labeldistance=1.5 headhref="dir_000073_000050.html"];
+  dir_4025c87b683dadcf41f9c751af7ac291->dir_0e511d950e936e02d380312a7eeeff9e [headlabel="1", labeldistance=1.5 headhref="dir_000073_000156.html"];
+  dir_4025c87b683dadcf41f9c751af7ac291->dir_f4b69bafa7685ee9950d2dee42a2cc60 [headlabel="1", labeldistance=1.5 headhref="dir_000073_000149.html"];
+  dir_4025c87b683dadcf41f9c751af7ac291->dir_4c1a26545ee9c743bf92254028874005 [headlabel="4", labeldistance=1.5 headhref="dir_000073_000145.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="10", labeldistance=1.5 headhref="dir_000156_000037.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_9a5e51f49964887903df6eed98080585 [headlabel="7", labeldistance=1.5 headhref="dir_000156_000050.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_f4b69bafa7685ee9950d2dee42a2cc60 [headlabel="1", labeldistance=1.5 headhref="dir_000156_000149.html"];
+  dir_0e511d950e936e02d380312a7eeeff9e->dir_4c1a26545ee9c743bf92254028874005 [headlabel="12", labeldistance=1.5 headhref="dir_000156_000145.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000149_000037.html"];
+  dir_f4b69bafa7685ee9950d2dee42a2cc60->dir_4c1a26545ee9c743bf92254028874005 [headlabel="1", labeldistance=1.5 headhref="dir_000149_000145.html"];
+  dir_4c1a26545ee9c743bf92254028874005->dir_9a5e51f49964887903df6eed98080585 [headlabel="8", labeldistance=1.5 headhref="dir_000145_000050.html"];
+}

@@ -1,0 +1,6 @@
+digraph "usb_cam::UsbCam"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{usb_cam::UsbCam\n||+ UsbCam()\l+ ~UsbCam()\l+ start()\l+ shutdown()\l+ grab_image()\l+ set_auto_focus()\l+ set_v4l_parameter()\l+ set_v4l_parameter()\l+ set_error_code()\l+ stop_capturing()\l+ start_capturing()\l+ is_capturing()\l+ io_method_from_string()\l+ pixel_format_from_string()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,10 @@
+digraph "modules/control/filters/mean_filter.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/control/filters\l/mean_filter.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/control/controller\l/lat_controller.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$lat__controller_8h.html",tooltip="Defines the LatController class. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/control/controller\l/mpc_controller.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$mpc__controller_8h.html",tooltip="Defines the MPCController class. "];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::planning::StGraphPoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::StGraph\lPoint\n||+ index_s()\l+ index_t()\l+ point()\l+ pre_point()\l+ reference_cost()\l+ obstacle_cost()\l+ total_cost()\l+ Init()\l+ SetReferenceCost()\l+ SetObstacleCost()\l+ SetTotalCost()\l+ SetPrePoint()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

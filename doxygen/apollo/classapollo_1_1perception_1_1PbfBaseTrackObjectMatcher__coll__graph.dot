@@ -1,0 +1,6 @@
+digraph "apollo::perception::PbfBaseTrackObjectMatcher"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::perception\l::PbfBaseTrackObjectMatcher\n|# s_max_match_distance_\l|+ PbfBaseTrackObjectMatcher()\l+ ~PbfBaseTrackObjectMatcher()\l+ Match()\l+ Init()\l+ name()\l+ IdAssign()\l+ SetMaxMatchDistance()\l+ GetMaxMatchDistance()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

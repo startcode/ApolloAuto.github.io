@@ -1,0 +1,6 @@
+digraph "apollo::planning::DiscretizedPath"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::DiscretizedPath\n|# path_points_\l|+ DiscretizedPath()\l+ DiscretizedPath()\l+ set_path_points()\l+ ~DiscretizedPath()\l+ Evaluate()\l+ Length()\l+ StartPoint()\l+ EndPoint()\l+ EvaluateUsingLinearApproximation()\l+ path_points()\l+ NumOfPoints()\l+ Clear()\l# QueryLowerBound()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,13 @@
+digraph "data/Ipopt-3.12.8/Ipopt/examples" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_709bf73fcf4c73568ec21f4e0f8d0f05 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Ipopt" fontname="Helvetica", fontsize="10", URL="dir_709bf73fcf4c73568ec21f4e0f8d0f05.html"]
+  subgraph clusterdir_6bb621bfa1d4e1a6e21b60612cb28b29 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_6bb621bfa1d4e1a6e21b60612cb28b29.html"];
+    dir_6bb621bfa1d4e1a6e21b60612cb28b29 [shape=plaintext label="examples"];
+    dir_7db7efc9249cc34efa28132d0e7aa7c8 [shape=box label="ScalableProblems" color="black" fillcolor="white" style="filled" URL="dir_7db7efc9249cc34efa28132d0e7aa7c8.html"];
+  }
+  }
+}

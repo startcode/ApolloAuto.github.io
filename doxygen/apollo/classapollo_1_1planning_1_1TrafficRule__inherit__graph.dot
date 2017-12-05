@@ -1,0 +1,20 @@
+digraph "apollo::planning::TrafficRule"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::planning::TrafficRule\n|# config_\l|+ TrafficRule()\l+ ~TrafficRule()\l+ Id()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::planning::Backside\lVehicle\n||+ BacksideVehicle()\l+ ~BacksideVehicle()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1BacksideVehicle.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node3 [label="{apollo::planning::ClearZone\n||+ ClearZone()\l+ ~ClearZone()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1ClearZone.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node4 [label="{apollo::planning::Crosswalk\n||+ Crosswalk()\l+ ~Crosswalk()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Crosswalk.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node5 [label="{apollo::planning::Object\lPriority\n||+ ObjectPriority()\l+ ~ObjectPriority()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1ObjectPriority.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node6 [label="{apollo::planning::Reference\lLineEnd\n||+ ReferenceLineEnd()\l+ ~ReferenceLineEnd()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1ReferenceLineEnd.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node7 [label="{apollo::planning::Rerouting\n||+ Rerouting()\l+ ~Rerouting()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1Rerouting.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node8 [label="{apollo::planning::Signal\lLight\n||+ SignalLight()\l+ ~SignalLight()\l+ ApplyRule()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1planning_1_1SignalLight.html"];
+}

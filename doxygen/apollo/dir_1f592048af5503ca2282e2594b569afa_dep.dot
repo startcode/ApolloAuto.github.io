@@ -1,0 +1,14 @@
+digraph "modules/perception/obstacle/lidar/visualizer/opengl_visualizer" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_0d68ce2da0aaab74b1129e6a2ab27397 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="visualizer" fontname="Helvetica", fontsize="10", URL="dir_0d68ce2da0aaab74b1129e6a2ab27397.html"]
+  dir_1f592048af5503ca2282e2594b569afa [shape=box, label="opengl_visualizer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_1f592048af5503ca2282e2594b569afa.html"];
+  }
+  dir_3220e30e13cded4e45f58b87a1a3558a [shape=box label="base" URL="dir_3220e30e13cded4e45f58b87a1a3558a.html"];
+  dir_4c1a26545ee9c743bf92254028874005 [shape=box label="lib" fillcolor="white" style="filled" color="red" URL="dir_4c1a26545ee9c743bf92254028874005.html"];
+  dir_1f592048af5503ca2282e2594b569afa->dir_3220e30e13cded4e45f58b87a1a3558a [headlabel="1", labeldistance=1.5 headhref="dir_000162_000037.html"];
+  dir_1f592048af5503ca2282e2594b569afa->dir_4c1a26545ee9c743bf92254028874005 [headlabel="2", labeldistance=1.5 headhref="dir_000162_000145.html"];
+  dir_3220e30e13cded4e45f58b87a1a3558a->dir_4c1a26545ee9c743bf92254028874005 [headlabel="3", labeldistance=1.5 headhref="dir_000037_000145.html"];
+}

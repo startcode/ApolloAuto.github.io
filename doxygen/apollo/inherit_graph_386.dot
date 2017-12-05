@@ -1,0 +1,17 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="apollo::prediction\l::Predictor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1Predictor.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="apollo::prediction\l::FreeMovePredictor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1FreeMovePredictor.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="apollo::prediction\l::RegionalPredictor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1RegionalPredictor.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="apollo::prediction\l::SequencePredictor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1SequencePredictor.html"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="apollo::prediction\l::LaneSequencePredictor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1LaneSequencePredictor.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="apollo::prediction\l::MoveSequencePredictor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1prediction_1_1MoveSequencePredictor.html"];
+}

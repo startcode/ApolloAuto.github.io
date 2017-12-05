@@ -1,0 +1,6 @@
+digraph "request_io"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{request_io\n|+ inode\l+ req_num\l+ addr\l+ size\l+ vaddr\l+ io_type\l+ file_type\l+ local_cond\l+ int_local_cond\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,11 @@
+digraph "modules/planning/common/trajectory" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_66bbc1175c980ce8ddd485259d3b02bb {
+    graph [ bgcolor="#ddddee", pencolor="black", label="common" fontname="Helvetica", fontsize="10", URL="dir_66bbc1175c980ce8ddd485259d3b02bb.html"]
+  dir_e11a5b5a55b37c24c55d6c47c63eb6c7 [shape=box, label="trajectory", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e11a5b5a55b37c24c55d6c47c63eb6c7.html"];
+  }
+  dir_9a5e51f49964887903df6eed98080585 [shape=box label="common" fillcolor="white" style="filled" color="red" URL="dir_9a5e51f49964887903df6eed98080585.html"];
+  dir_e11a5b5a55b37c24c55d6c47c63eb6c7->dir_9a5e51f49964887903df6eed98080585 [headlabel="1", labeldistance=1.5 headhref="dir_000181_000050.html"];
+}

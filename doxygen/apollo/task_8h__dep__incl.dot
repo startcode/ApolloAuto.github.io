@@ -1,0 +1,26 @@
+digraph "modules/planning/tasks/task.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/planning/tasks\l/task.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/planning/planner\l/em/em_planner.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$em__planner_8h.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/planning/tasks\l/path_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$path__optimizer_8h.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/planning/tasks\l/dp_poly_path/dp_poly\l_path_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dp__poly__path__optimizer_8h.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/planning/tasks\l/qp_spline_path/qp_spline\l_path_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$qp__spline__path__optimizer_8h.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/planning/tasks\l/speed_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$speed__optimizer_8h.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="modules/planning/tasks\l/dp_st_speed/dp_st_speed\l_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dp__st__speed__optimizer_8h.html"];
+  Node6 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="modules/planning/tasks\l/qp_spline_st_speed/qp\l_spline_st_speed_optimizer.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$qp__spline__st__speed__optimizer_8h.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="modules/planning/tasks\l/path_decider/path_decider.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$path__decider_8h.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="modules/planning/tasks\l/speed_decider/speed_decider.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$speed__decider_8h.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="modules/planning/tasks\l/traffic_decider/traffic\l_decider.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$traffic__decider_8h.html"];
+}

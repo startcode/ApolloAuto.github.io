@@ -1,0 +1,8 @@
+digraph "apollo::monitor::HwCheckResultDetails"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::monitor::HwCheck\lResultDetails\n||+ ~HwCheckResultDetails()\l+ print_summary()\l+ print_test_result()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::monitor::hw\l::EsdCanDetails\n|+ if_status\l+ stats\l+ ctrl_state\l+ bitrate\l+ result\l+ valid_flag\l|+ EsdCanDetails()\l+ print_summary()\l+ print_test_result()\l+ esdcan_do_test()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1monitor_1_1hw_1_1EsdCanDetails.html",tooltip="A collection of details data about a given ESD-CAN interface. "];
+}

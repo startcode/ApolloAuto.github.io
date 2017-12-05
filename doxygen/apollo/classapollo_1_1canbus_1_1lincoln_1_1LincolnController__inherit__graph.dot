@@ -1,0 +1,8 @@
+digraph "apollo::canbus::lincoln::LincolnController"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::canbus::lincoln\l::LincolnController\n||+ Init()\l+ Start()\l+ Stop()\l+ chassis()\l+ FRIEND_TEST()\l+ FRIEND_TEST()\l+ FRIEND_TEST()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="Helvetica"];
+  Node2 [label="{apollo::canbus::VehicleController\n|# params_\l# can_sender_\l# message_manager_\l# is_initialized_\l# driving_mode_\l# is_reset_\l# mode_mutex_\l|+ ~VehicleController()\l+ Init()\l+ Start()\l+ Stop()\l+ chassis()\l+ Update()\l+ SetDrivingMode()\l# driving_mode()\l# set_driving_mode()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classapollo_1_1canbus_1_1VehicleController.html",tooltip="This is the interface class of vehicle controller. It defines pure virtual functions, and also some implemented common functions. "];
+}

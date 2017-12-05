@@ -1,0 +1,6 @@
+digraph "ma97_info"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{ma97_info\n|+ flag\l+ flag68\l+ flag77\l+ matrix_dup\l+ matrix_rank\l+ matrix_outrange\l+ matrix_missing_diag\l+ maxdepth\l+ maxfront\l+ num_delay\land 9 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

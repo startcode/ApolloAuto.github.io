@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::GLO_Ephemeris"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::GLO_Ephemeris\n|+ sloto\l+ freqo\l+ sat_type\l+ reserved_1\l+ e_week\l+ e_time\l+ t_offset\l+ Nt\l+ reserved_2\l+ reserved_3\land 19 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

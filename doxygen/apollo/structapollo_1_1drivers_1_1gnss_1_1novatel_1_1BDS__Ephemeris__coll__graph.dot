@@ -1,0 +1,6 @@
+digraph "apollo::drivers::gnss::novatel::BDS_Ephemeris"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::drivers::gnss\l::novatel::BDS_Ephemeris\n|+ satellite_id\l+ week\l+ ura\l+ health1\l+ tdg1\l+ tdg2\l+ aodc\l+ toc\l+ a0\l+ a1\land 18 more...\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

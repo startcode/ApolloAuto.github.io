@@ -1,0 +1,6 @@
+digraph "apollo::monitor::HwCheckResult"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::monitor::HwCheck\lResult\n|+ name\l+ status\l+ mssg\l+ details\l|+ HwCheckResult()\l+ HwCheckResult()\l+ HwCheckResult()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

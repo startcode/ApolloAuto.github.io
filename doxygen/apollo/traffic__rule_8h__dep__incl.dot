@@ -1,0 +1,22 @@
+digraph "modules/planning/tasks/traffic_decider/traffic_rule.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="modules/planning/tasks\l/traffic_decider/traffic\l_rule.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="modules/planning/tasks\l/traffic_decider/backside\l_vehicle.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$backside__vehicle_8h.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="modules/planning/tasks\l/traffic_decider/clear\l_zone.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$clear__zone_8h.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="modules/planning/tasks\l/traffic_decider/crosswalk.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$crosswalk_8h.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="modules/planning/tasks\l/traffic_decider/object\l_priority.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$object__priority_8h.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="modules/planning/tasks\l/traffic_decider/reference\l_line_end.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$reference__line__end_8h.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="modules/planning/tasks\l/traffic_decider/rerouting.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rerouting_8h.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="modules/planning/tasks\l/traffic_decider/signal\l_light.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$signal__light_8h.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="modules/planning/tasks\l/traffic_decider/traffic\l_decider.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$traffic__decider_8h.html"];
+}

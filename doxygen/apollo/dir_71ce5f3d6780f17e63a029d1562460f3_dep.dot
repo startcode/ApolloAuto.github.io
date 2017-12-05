@@ -1,0 +1,11 @@
+digraph "modules/drivers/mobileye/protocol" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_74831b5c66846d359f118ccb5ce77f83 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="mobileye" fontname="Helvetica", fontsize="10", URL="dir_74831b5c66846d359f118ccb5ce77f83.html"]
+  dir_71ce5f3d6780f17e63a029d1562460f3 [shape=box, label="protocol", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_71ce5f3d6780f17e63a029d1562460f3.html"];
+  }
+  dir_6ac68ed414d44d6f54320351cbdbfd7b [shape=box label="canbus" fillcolor="white" style="filled" color="red" URL="dir_6ac68ed414d44d6f54320351cbdbfd7b.html"];
+  dir_71ce5f3d6780f17e63a029d1562460f3->dir_6ac68ed414d44d6f54320351cbdbfd7b [headlabel="14", labeldistance=1.5 headhref="dir_000117_000095.html"];
+}

@@ -1,0 +1,6 @@
+digraph "apollo::data::InfoCollector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{apollo::data::InfoCollector\n||+ InfoCollector()\l+ GetTaskInfo()\l+ GetVehicleInfo()\l+ GetEnvironmentInfo()\l+ GetHardwareInfo()\l+ GetSoftwareInfo()\l+ GetUserInfo()\l+ LoadTaskInfoTemplate()\l+ SaveTaskInfoTemplate()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}
